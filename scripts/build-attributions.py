@@ -2,7 +2,8 @@
 """Regenerate creditos-imagenes/index.html from data/image-credits.json.
 
 Workflow when adding new Wikimedia Commons images:
-  1. Add an entry to data/image-credits.json (see existing entries for shape).
+  1. Add an entry to data/image-credits.json — under "images" for a hotel
+     photo, or under "cities" for a city photo (see existing entries).
   2. Run:  python3 scripts/build-attributions.py
   3. Commit data/image-credits.json and creditos-imagenes/index.html together.
 
@@ -13,31 +14,38 @@ import json, html, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 manifest = json.load(open(f"{ROOT}/data/image-credits.json", encoding="utf-8"))
-images = sorted(manifest["images"], key=lambda x: x["hotel"].lower())
+hotels = sorted(manifest.get("images", []), key=lambda x: x["hotel"].lower())
+cities = sorted(manifest.get("cities", []), key=lambda x: x["city"].lower())
 updated = manifest.get("updated", "")
+count = len(hotels) + len(cities)
 
 def e(s):
     return html.escape(s or "", quote=True)
 
-rows = []
-for im in images:
-    lic = e(im["license"]) or "Licencia no especificada"
-    if im.get("license_url"):
-        lic = f'<a href="{e(im["license_url"])}" target="_blank" rel="license noopener">{lic}</a>'
-    src = e(im.get("source", "Wikimedia Commons"))
-    if im.get("commons_url"):
-        src = f'<a href="{e(im["commons_url"])}" target="_blank" rel="noopener">{src}</a>'
-    rows.append(
-        '          <li class="credit-item">\n'
-        f'            <p class="credit-item__hotel">{e(im["hotel"])}</p>\n'
-        '            <p class="credit-item__meta">'
-        f'<span>Fotografía: {e(im["author"])}</span>'
-        f'<span>Licencia: {lic}</span>'
-        f'<span>Fuente: {src}</span></p>\n'
-        '          </li>'
-    )
-credits_html = "\n".join(rows)
-count = len(images)
+def section(title, items, name_key):
+    rows = []
+    for im in items:
+        lic = e(im["license"]) or "Licencia no especificada"
+        if im.get("license_url"):
+            lic = f'<a href="{e(im["license_url"])}" target="_blank" rel="license noopener">{lic}</a>'
+        src = e(im.get("source", "Wikimedia Commons"))
+        if im.get("commons_url"):
+            src = f'<a href="{e(im["commons_url"])}" target="_blank" rel="noopener">{src}</a>'
+        rows.append(
+            '          <li class="credit-item">\n'
+            f'            <p class="credit-item__hotel">{e(im[name_key])}</p>\n'
+            '            <p class="credit-item__meta">'
+            f'<span>Fotografía: {e(im["author"])}</span>'
+            f'<span>Licencia: {lic}</span>'
+            f'<span>Fuente: {src}</span></p>\n'
+            '          </li>'
+        )
+    return (f'        <h2 class="credits-section__title">{title}</h2>\n'
+            f'        <ul class="credits-list" role="list">\n'
+            + "\n".join(rows) + "\n        </ul>")
+
+credits_html = (section("Fotografías de hotel", hotels, "hotel") + "\n"
+                + section("Fotografías de ciudad", cities, "city"))
 
 PAGE = f"""<!DOCTYPE html>
 <html lang="es">
@@ -45,12 +53,12 @@ PAGE = f"""<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Créditos de imágenes — Atribuciones | Hoteles Famosos</title>
-  <meta name="description" content="Créditos y atribuciones de las {count} fotografías de hotel utilizadas en Hoteles Famosos, obtenidas de Wikimedia Commons bajo licencias libres Creative Commons y de dominio público.">
+  <meta name="description" content="Créditos y atribuciones de las {count} fotografías de hotel y de ciudad utilizadas en Hoteles Famosos, obtenidas de Wikimedia Commons bajo licencias libres Creative Commons y de dominio público.">
   <link rel="canonical" href="https://hotelesfamosos.com/creditos-imagenes/">
   <meta name="robots" content="index, follow">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Créditos de imágenes — Hoteles Famosos">
-  <meta property="og:description" content="Atribuciones de las fotografías de hotel utilizadas en Hoteles Famosos, bajo licencias libres de Wikimedia Commons.">
+  <meta property="og:description" content="Atribuciones de las fotografías utilizadas en Hoteles Famosos, bajo licencias libres de Wikimedia Commons.">
   <meta property="og:url" content="https://hotelesfamosos.com/creditos-imagenes/">
   <meta property="og:image" content="https://hotelesfamosos.com/assets/img/og/default.png">
   <meta property="og:image:type" content="image/png">
@@ -80,7 +88,7 @@ PAGE = f"""<!DOCTYPE html>
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": "Créditos de imágenes",
-    "description": "Atribuciones de las fotografías de hotel utilizadas en Hoteles Famosos, obtenidas de Wikimedia Commons bajo licencias libres.",
+    "description": "Atribuciones de las fotografías de hotel y de ciudad utilizadas en Hoteles Famosos, obtenidas de Wikimedia Commons bajo licencias libres.",
     "url": "https://hotelesfamosos.com/creditos-imagenes/",
     "inLanguage": "es",
     "isPartOf": {{"@type": "WebSite", "name": "Hoteles Famosos", "url": "https://hotelesfamosos.com/"}},
@@ -126,19 +134,17 @@ PAGE = f"""<!DOCTYPE html>
           </ol>
         </nav>
         <h1 class="hub-header__title">Créditos de imágenes</h1>
-        <p class="hub-header__desc">Las fotografías de los perfiles de hotel de Hoteles Famosos provienen de Wikimedia Commons y se utilizan bajo licencias libres (Creative Commons o dominio público). Esta página reconoce a cada autor y enlaza la licencia y la fuente original de cada imagen.</p>
+        <p class="hub-header__desc">Las fotografías de hotel y de ciudad de Hoteles Famosos provienen de Wikimedia Commons y se utilizan bajo licencias libres (Creative Commons o dominio público). Esta página reconoce a cada autor y enlaza la licencia y la fuente original de cada imagen.</p>
       </div>
     </div>
 
     <section class="section section--cream" aria-label="Atribuciones de imágenes">
       <div class="container">
         <div class="credits-intro">
-          <p>Creemos en el crédito justo al trabajo de los fotógrafos. A continuación se listan las {count} imágenes de hotel utilizadas en el sitio, con su autor, su licencia y un enlace a la página original en Wikimedia Commons. Las licencias Creative Commons «BY» y «BY-SA» exigen atribución; las imágenes de dominio público y bajo CC0 se acreditan igualmente como cortesía y transparencia.</p>
+          <p>Creemos en el crédito justo al trabajo de los fotógrafos. A continuación se listan las {count} imágenes utilizadas en el sitio, con su autor, su licencia y un enlace a la página original en Wikimedia Commons. Las licencias Creative Commons «BY» y «BY-SA» exigen atribución; las imágenes de dominio público y bajo CC0 se acreditan igualmente como cortesía y transparencia.</p>
           <p class="credits-intro__note">Si detectas un error en una atribución, escríbenos y lo corregiremos. Última actualización: {e(updated)}.</p>
         </div>
-        <ul class="credits-list" role="list">
 {credits_html}
-        </ul>
         <p class="credits-foot">Las marcas y nombres de los hoteles pertenecen a sus respectivos titulares. Hoteles Famosos es una publicación editorial independiente sin afiliación con los establecimientos descritos.</p>
       </div>
     </section>
@@ -158,15 +164,15 @@ PAGE = f"""<!DOCTYPE html>
             <ul>
               <li><a href="/hoteles/">Todos los hoteles</a></li>
               <li><a href="/hoteles-por-pais/">Hoteles por país</a></li>
-              <li><a href="/ciudades/">Por ciudad</a></li>
+              <li><a href="/comparar-hoteles/">Comparar hoteles</a></li>
             </ul>
           </div>
           <div>
             <p class="footer__nav-heading">Explorar</p>
             <ul>
+              <li><a href="/ciudades/">Por ciudad</a></li>
               <li><a href="/colecciones/">Colecciones</a></li>
               <li><a href="/guias/">Guías editoriales</a></li>
-              <li><a href="/sitemap.xml">Mapa del sitio</a></li>
             </ul>
           </div>
           <div>
@@ -199,4 +205,4 @@ PAGE = f"""<!DOCTYPE html>
 os.makedirs(f"{ROOT}/creditos-imagenes", exist_ok=True)
 with open(f"{ROOT}/creditos-imagenes/index.html", "w", encoding="utf-8") as f:
     f.write(PAGE)
-print(f"creditos-imagenes/index.html regenerated — {count} image credits")
+print(f"creditos-imagenes/index.html regenerated — {len(hotels)} hotels + {len(cities)} cities = {count} credits")

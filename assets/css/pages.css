@@ -608,6 +608,8 @@
 /* ════ Créditos de imágenes ════ */
 .credits-intro { max-width: 62ch; margin-bottom: var(--space-8); }
 .credits-intro__note { font-size: var(--text-sm); color: var(--color-text-light); margin-top: var(--space-3); }
+.credits-section__title { font-family: var(--font-serif); font-size: var(--text-2xl); color: var(--color-navy); margin: var(--space-10) 0 var(--space-5); }
+.credits-section__title:first-of-type { margin-top: 0; }
 .credits-list { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--space-4); }
 @media (min-width: 768px) { .credits-list { grid-template-columns: 1fr 1fr; } }
 .credit-item { background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-4) var(--space-5); }
@@ -633,3 +635,36 @@
 .compare-panel__link { font-weight: 600; color: var(--color-navy); }
 .compare-panel__link:hover { color: var(--color-gold); }
 .compare-note { margin-top: var(--space-6); font-size: var(--text-xs); color: var(--color-text-light); text-align: center; }
+
+/* ════ City photo tiles & heroes (Wikimedia Commons) ════ */
+.art--city-ba, .art--city-cdmx, .art--city-dubai, .art--city-habana, .art--city-london,
+.art--city-ny, .art--city-paris, .art--city-rome, .art--city-tokyo, .art--city-venice {
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+}
+.art--city-ba { background-image: url(/assets/img/tiles/city-buenos-aires.jpg); }
+.art--city-cdmx { background-image: url(/assets/img/tiles/city-ciudad-de-mexico.jpg); }
+.art--city-dubai { background-image: url(/assets/img/tiles/city-dubai.jpg); }
+.art--city-habana { background-image: url(/assets/img/tiles/city-la-habana.jpg); }
+.art--city-london { background-image: url(/assets/img/tiles/city-londres.jpg); }
+.art--city-ny { background-image: url(/assets/img/tiles/city-nueva-york.jpg); }
+.art--city-paris { background-image: url(/assets/img/tiles/city-paris.jpg); }
+.art--city-rome { background-image: url(/assets/img/tiles/city-roma.jpg); }
+.art--city-tokyo { background-image: url(/assets/img/tiles/city-tokio.jpg); }
+.art--city-venice { background-image: url(/assets/img/tiles/city-venecia.jpg); }
+
+/* ════ Collection tiles — a representative member hotel per theme ════ */
+.art--col-pelicula, .art--col-palacios, .art--col-fotografiados, .art--col-historia,
+.art--col-arquitectura, .art--col-latam, .art--col-mar, .art--col-clasico,
+.art--col-leyendas, .art--col-antiguos {
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+}
+.art--col-pelicula { background-image: url(/assets/img/tiles/park-hyatt-tokio.jpg); }
+.art--col-palacios { background-image: url(/assets/img/tiles/danieli-venecia.jpg); }
+.art--col-fotografiados { background-image: url(/assets/img/tiles/chateau-frontenac-quebec.jpg); }
+.art--col-historia { background-image: url(/assets/img/tiles/pera-palace-estambul.jpg); }
+.art--col-arquitectura { background-image: url(/assets/img/tiles/burj-al-arab-dubai.jpg); }
+.art--col-latam { background-image: url(/assets/img/tiles/copacabana-palace-rio.jpg); }
+.art--col-mar { background-image: url(/assets/img/tiles/hotel-del-coronado-san-diego.jpg); }
+.art--col-clasico { background-image: url(/assets/img/tiles/ritz-paris.jpg); }
+.art--col-leyendas { background-image: url(/assets/img/tiles/the-savoy-londres.jpg); }
+.art--col-antiguos { background-image: url(/assets/img/tiles/raffles-singapur.jpg); }
