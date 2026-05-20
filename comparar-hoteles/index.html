@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparar hoteles famosos — Cara a cara | Hoteles Famosos</title>
+  <meta name="description" content="Compara dos de los hoteles más famosos del mundo lado a lado: ubicación, historia y carácter editorial. Una herramienta para explorar los 20 hoteles de Hoteles Famosos.">
+  <link rel="canonical" href="https://hotelesfamosos.com/comparar-hoteles/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Comparar hoteles famosos — Cara a cara">
+  <meta property="og:description" content="Compara dos de los hoteles más icónicos del mundo lado a lado. Herramienta editorial de Hoteles Famosos.">
+  <meta property="og:url" content="https://hotelesfamosos.com/comparar-hoteles/">
+  <meta property="og:image" content="https://hotelesfamosos.com/assets/img/og/default.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Hoteles Famosos — La Bitácora de los Grandes Hoteles del Mundo">
+  <meta property="og:locale" content="es_419">
+  <meta property="og:site_name" content="Hoteles Famosos">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Comparar hoteles famosos — Cara a cara">
+  <meta name="twitter:description" content="Compara dos de los hoteles más icónicos del mundo lado a lado.">
+  <meta name="twitter:image" content="https://hotelesfamosos.com/assets/img/og/default.png">
+  <meta name="twitter:image:alt" content="Hoteles Famosos — La Bitácora de los Grandes Hoteles del Mundo">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicons/favicon.svg">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/assets/img/favicons/apple-touch-icon.png">
+  <meta name="theme-color" content="#1B2A4A">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"></noscript>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/pages.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "name": "Comparar hoteles famosos",
+        "description": "Herramienta editorial para comparar lado a lado los hoteles más famosos del mundo.",
+        "url": "https://hotelesfamosos.com/comparar-hoteles/",
+        "inLanguage": "es",
+        "image": "https://hotelesfamosos.com/assets/img/og/default.png",
+        "isPartOf": {"@type": "WebSite", "name": "Hoteles Famosos", "url": "https://hotelesfamosos.com/"},
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://hotelesfamosos.com/"},
+            {"@type": "ListItem", "position": 2, "name": "Comparar hoteles", "item": "https://hotelesfamosos.com/comparar-hoteles/"}
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "inLanguage": "es",
+        "mainEntity": [
+          {"@type": "Question", "name": "¿Cómo funciona el comparador de hoteles?", "acceptedAnswer": {"@type": "Answer", "text": "Elige dos hoteles en los menús desplegables y la herramienta los muestra lado a lado con su ubicación, su descripción editorial y un enlace a su perfil completo. Puedes comparar cualquiera de los 20 hoteles de Hoteles Famosos."}},
+          {"@type": "Question", "name": "¿Qué hoteles se pueden comparar?", "acceptedAnswer": {"@type": "Answer", "text": "Se pueden comparar los 20 hoteles del catálogo editorial de Hoteles Famosos, desde The Ritz Paris y The Plaza hasta el Burj Al Arab, el Raffles de Singapur o el Copacabana Palace de Río de Janeiro."}},
+          {"@type": "Question", "name": "¿La comparación incluye precios o disponibilidad?", "acceptedAnswer": {"@type": "Answer", "text": "No. Hoteles Famosos es una guía editorial e inspiracional: la comparación es de carácter histórico y editorial, y no incluye tarifas, disponibilidad ni reservas."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="/" class="nav__logo" aria-label="Hoteles Famosos — Inicio">
+          <span class="nav__logo-text">Hoteles Famosos</span>
+          <span class="nav__logo-sub">La Bitácora</span>
+        </a>
+        <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú de navegación">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__menu" id="nav-menu" role="list">
+          <li><a href="/hoteles/" class="nav__link">Hoteles</a></li>
+          <li><a href="/ciudades/" class="nav__link">Por Ciudad</a></li>
+          <li><a href="/colecciones/" class="nav__link">Colecciones</a></li>
+          <li><a href="/guias/" class="nav__link">Guías</a></li>
+          <li><a href="/acerca-de/" class="nav__link">Acerca de</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="hub-header">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Ruta de navegación">
+          <ol>
+            <li><a href="/">Inicio</a></li>
+            <li aria-current="page">Comparar hoteles</li>
+          </ol>
+        </nav>
+        <h1 class="hub-header__title">Comparar hoteles famosos</h1>
+        <p class="hub-header__desc">Pon dos grandes hoteles del mundo cara a cara. Elige dos perfiles y compáralos por ubicación, historia y carácter editorial — una forma rápida y visual de decidir cuál quieres explorar primero.</p>
+      </div>
+    </div>
+
+    <section class="section section--cream" aria-label="Comparador de hoteles">
+      <div class="container">
+        <div class="compare-bar">
+          <button type="button" id="compare-swap" class="btn btn--outline-dark compare-swap">⇄ Intercambiar</button>
+        </div>
+        <div class="compare-tool">
+          <div class="compare-col">
+            <label class="compare-label" for="compare-a">Hotel A</label>
+            <select id="compare-a" class="compare-select" aria-label="Elegir primer hotel">
+            <option value="alvear-palace-buenos-aires">Alvear Palace Hotel</option>
+            <option value="cipriani-venecia">Belmond Hotel Cipriani</option>
+            <option value="burj-al-arab-dubai">Burj Al Arab</option>
+            <option value="casa-gangotena-quito">Casa Gangotena</option>
+            <option value="chateau-frontenac-quebec">Château Frontenac</option>
+            <option value="claridges-londres">Claridge&#x27;s</option>
+            <option value="copacabana-palace-rio">Copacabana Palace</option>
+            <option value="four-seasons-george-v-paris">Four Seasons George V</option>
+            <option value="danieli-venecia">Hotel Danieli</option>
+            <option value="hotel-del-coronado-san-diego">Hotel del Coronado</option>
+            <option value="hotel-nacional-habana">Hotel Nacional de Cuba</option>
+            <option value="park-hyatt-tokio">Park Hyatt Tokio</option>
+            <option value="pera-palace-estambul">Pera Palace Hotel</option>
+            <option value="raffles-singapur">Raffles Singapore</option>
+            <option value="beverly-hills-hotel">The Beverly Hills Hotel</option>
+            <option value="the-dorchester-londres">The Dorchester</option>
+            <option value="the-plaza-nueva-york">The Plaza</option>
+            <option value="ritz-paris" selected>The Ritz Paris</option>
+            <option value="the-savoy-londres">The Savoy</option>
+            <option value="villa-deste-como">Villa d&#x27;Este</option>
+            </select>
+        <div class="compare-panel" data-slot="a">
+          <div class="compare-panel__art art--ritz" role="img" aria-label="Fotografía de The Ritz Paris"></div>
+          <div class="compare-panel__body">
+            <p class="compare-panel__loc">París · Francia</p>
+            <h3 class="compare-panel__name">The Ritz Paris</h3>
+            <p class="compare-panel__desc">The Ritz Paris en la Place Vendôme desde 1898: el hotel que dio nombre al lujo moderno, sede del Bar Hemingway y símbolo del París más legendario.</p>
+            <a class="compare-panel__link" href="/hoteles/ritz-paris/">Ver perfil completo →</a>
+          </div>
+        </div>
+          </div>
+          <div class="compare-col">
+            <label class="compare-label" for="compare-b">Hotel B</label>
+            <select id="compare-b" class="compare-select" aria-label="Elegir segundo hotel">
+            <option value="alvear-palace-buenos-aires">Alvear Palace Hotel</option>
+            <option value="cipriani-venecia">Belmond Hotel Cipriani</option>
+            <option value="burj-al-arab-dubai">Burj Al Arab</option>
+            <option value="casa-gangotena-quito">Casa Gangotena</option>
+            <option value="chateau-frontenac-quebec">Château Frontenac</option>
+            <option value="claridges-londres">Claridge&#x27;s</option>
+            <option value="copacabana-palace-rio">Copacabana Palace</option>
+            <option value="four-seasons-george-v-paris">Four Seasons George V</option>
+            <option value="danieli-venecia">Hotel Danieli</option>
+            <option value="hotel-del-coronado-san-diego">Hotel del Coronado</option>
+            <option value="hotel-nacional-habana">Hotel Nacional de Cuba</option>
+            <option value="park-hyatt-tokio">Park Hyatt Tokio</option>
+            <option value="pera-palace-estambul">Pera Palace Hotel</option>
+            <option value="raffles-singapur">Raffles Singapore</option>
+            <option value="beverly-hills-hotel">The Beverly Hills Hotel</option>
+            <option value="the-dorchester-londres">The Dorchester</option>
+            <option value="the-plaza-nueva-york" selected>The Plaza</option>
+            <option value="ritz-paris">The Ritz Paris</option>
+            <option value="the-savoy-londres">The Savoy</option>
+            <option value="villa-deste-como">Villa d&#x27;Este</option>
+            </select>
+        <div class="compare-panel" data-slot="b">
+          <div class="compare-panel__art art--plaza" role="img" aria-label="Fotografía de The Plaza"></div>
+          <div class="compare-panel__body">
+            <p class="compare-panel__loc">Nueva York · Estados Unidos</p>
+            <h3 class="compare-panel__name">The Plaza</h3>
+            <p class="compare-panel__desc">Descubre la historia y el carácter de The Plaza, el hotel Beaux-Arts más reconocible de Nueva York.</p>
+            <a class="compare-panel__link" href="/hoteles/the-plaza-nueva-york/">Ver perfil completo →</a>
+          </div>
+        </div>
+          </div>
+        </div>
+        <p class="compare-note">Comparativa editorial e informativa. Hoteles Famosos no gestiona reservas ni tarifas; verifica los datos en fuentes oficiales antes de planificar un viaje.</p>
+      </div>
+    </section>
+
+    <section class="section section--white" aria-labelledby="all-hotels-heading">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-heading__eyebrow">Catálogo completo</span>
+          <h2 class="section-heading__title" id="all-hotels-heading">Los 20 hoteles que puedes comparar</h2>
+        </div>
+        <div class="grid grid-4" style="gap: var(--space-5);">
+          <a class="hotel-card" href="/hoteles/alvear-palace-buenos-aires/">
+            <div class="hotel-card__art art--alvear"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Buenos Aires · Argentina</p>
+              <h3 class="hotel-card__title">Alvear Palace Hotel</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/cipriani-venecia/">
+            <div class="hotel-card__art art--cipriani"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Venecia · Italia</p>
+              <h3 class="hotel-card__title">Belmond Hotel Cipriani</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/burj-al-arab-dubai/">
+            <div class="hotel-card__art art--burj"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Dubái · Emiratos Árabes Unidos</p>
+              <h3 class="hotel-card__title">Burj Al Arab</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/casa-gangotena-quito/">
+            <div class="hotel-card__art art--gangotena"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Quito · Ecuador</p>
+              <h3 class="hotel-card__title">Casa Gangotena</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/chateau-frontenac-quebec/">
+            <div class="hotel-card__art art--frontenac"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Quebec · Canadá</p>
+              <h3 class="hotel-card__title">Château Frontenac</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/claridges-londres/">
+            <div class="hotel-card__art art--claridges"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Londres · Reino Unido</p>
+              <h3 class="hotel-card__title">Claridge&#x27;s</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/copacabana-palace-rio/">
+            <div class="hotel-card__art art--copacabana"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Río de Janeiro · Brasil</p>
+              <h3 class="hotel-card__title">Copacabana Palace</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/four-seasons-george-v-paris/">
+            <div class="hotel-card__art art--georgev"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">París · Francia</p>
+              <h3 class="hotel-card__title">Four Seasons George V</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/danieli-venecia/">
+            <div class="hotel-card__art art--danieli"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Venecia · Italia</p>
+              <h3 class="hotel-card__title">Hotel Danieli</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/hotel-del-coronado-san-diego/">
+            <div class="hotel-card__art art--coronado"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">San Diego · Estados Unidos</p>
+              <h3 class="hotel-card__title">Hotel del Coronado</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/hotel-nacional-habana/">
+            <div class="hotel-card__art art--nacional"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">La Habana · Cuba</p>
+              <h3 class="hotel-card__title">Hotel Nacional de Cuba</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/park-hyatt-tokio/">
+            <div class="hotel-card__art art--parkhyatt"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Tokio · Japón</p>
+              <h3 class="hotel-card__title">Park Hyatt Tokio</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/pera-palace-estambul/">
+            <div class="hotel-card__art art--pera"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Estambul · Turquía</p>
+              <h3 class="hotel-card__title">Pera Palace Hotel</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/raffles-singapur/">
+            <div class="hotel-card__art art--raffles"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Singapur · Singapur</p>
+              <h3 class="hotel-card__title">Raffles Singapore</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/beverly-hills-hotel/">
+            <div class="hotel-card__art art--beverlyhills"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Los Ángeles · Estados Unidos</p>
+              <h3 class="hotel-card__title">The Beverly Hills Hotel</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/the-dorchester-londres/">
+            <div class="hotel-card__art art--dorchester"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Londres · Reino Unido</p>
+              <h3 class="hotel-card__title">The Dorchester</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/the-plaza-nueva-york/">
+            <div class="hotel-card__art art--plaza"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Nueva York · Estados Unidos</p>
+              <h3 class="hotel-card__title">The Plaza</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/ritz-paris/">
+            <div class="hotel-card__art art--ritz"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">París · Francia</p>
+              <h3 class="hotel-card__title">The Ritz Paris</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/the-savoy-londres/">
+            <div class="hotel-card__art art--savoy"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Londres · Reino Unido</p>
+              <h3 class="hotel-card__title">The Savoy</h3>
+            </div>
+          </a>
+          <a class="hotel-card" href="/hoteles/villa-deste-como/">
+            <div class="hotel-card__art art--villadeste"></div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Como · Italia</p>
+              <h3 class="hotel-card__title">Villa d&#x27;Este</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" aria-label="Preguntas frecuentes">
+      <div class="faq-block">
+        <h2 class="faq-block__title">Preguntas frecuentes</h2>
+        <div class="faq-item">
+          <p class="faq-item__question">¿Cómo funciona el comparador de hoteles?</p>
+          <div class="faq-item__answer"><p>Elige dos hoteles en los menús desplegables y la herramienta los muestra lado a lado con su ubicación, su descripción editorial y un enlace a su perfil completo. Puedes comparar cualquiera de los 20 hoteles de Hoteles Famosos.</p></div>
+        </div>
+        <div class="faq-item">
+          <p class="faq-item__question">¿Qué hoteles se pueden comparar?</p>
+          <div class="faq-item__answer"><p>Se pueden comparar los 20 hoteles del catálogo editorial de Hoteles Famosos, desde The Ritz Paris y The Plaza hasta el Burj Al Arab, el Raffles de Singapur o el Copacabana Palace de Río de Janeiro.</p></div>
+        </div>
+        <div class="faq-item">
+          <p class="faq-item__question">¿La comparación incluye precios o disponibilidad?</p>
+          <div class="faq-item__answer"><p>No. Hoteles Famosos es una guía editorial e inspiracional: la comparación es de carácter histórico y editorial, y no incluye tarifas, disponibilidad ni reservas.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <p class="footer__logo-text">Hoteles Famosos</p>
+          <span class="footer__logo-sub">La Bitácora</span>
+          <p class="footer__brand-desc">Una guía editorial e inspiracional de los hoteles más icónicos del mundo.</p>
+        </div>
+        <nav class="footer__nav" aria-label="Navegación del pie de página">
+          <div>
+            <p class="footer__nav-heading">Hoteles</p>
+            <ul>
+              <li><a href="/hoteles/">Todos los hoteles</a></li>
+              <li><a href="/hoteles-por-pais/">Hoteles por país</a></li>
+              <li><a href="/comparar-hoteles/">Comparar hoteles</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer__nav-heading">Explorar</p>
+            <ul>
+              <li><a href="/ciudades/">Por ciudad</a></li>
+              <li><a href="/colecciones/">Colecciones</a></li>
+              <li><a href="/guias/">Guías editoriales</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer__nav-heading">La Bitácora</p>
+            <ul>
+              <li><a href="/acerca-de/">Acerca de</a></li>
+              <li><a href="/politica-editorial/">Política editorial</a></li>
+              <li><a href="/creditos-imagenes/">Créditos de imágenes</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="footer__disclaimer">
+        <p><strong>Aviso editorial:</strong> Hoteles Famosos es una guía editorial e inspiracional. No somos una agencia de viajes ni una plataforma de reservas. La información puede cambiar; antes de planificar una visita o estadía, verifica tarifas, disponibilidad, servicios, políticas y datos históricos en fuentes oficiales del hotel o fuentes confiables actualizadas.</p>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2025 Hoteles Famosos. Todos los derechos reservados.</p>
+        <nav class="footer__legal-links" aria-label="Enlaces legales">
+          <a href="/politica-editorial/">Política editorial</a>
+          <a href="/acerca-de/">Acerca de</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script type="application/json" id="hotels-data">[{"slug":"alvear-palace-buenos-aires","name":"Alvear Palace Hotel","city":"Buenos Aires","country":"Argentina","art":"alvear","desc":"El Alvear Palace Hotel abrió en 1932 en Recoleta, Buenos Aires, y lleva el nombre del presidente argentino Marcelo T. de Alvear."},{"slug":"beverly-hills-hotel","name":"The Beverly Hills Hotel","city":"Los Ángeles","country":"Estados Unidos","art":"beverlyhills","desc":"The Beverly Hills Hotel, conocido como el 'Pink Palace', abrió en 1912 en Sunset Boulevard antes de que Beverly Hills existiera."},{"slug":"burj-al-arab-dubai","name":"Burj Al Arab","city":"Dubái","country":"Emiratos Árabes Unidos","art":"burj","desc":"Burj Al Arab en Dubái: la icónica torre con forma de vela inaugurada en 1999 que cambió el perfil de la ciudad."},{"slug":"casa-gangotena-quito","name":"Casa Gangotena","city":"Quito","country":"Ecuador","art":"gangotena","desc":"Casa Gangotena es una mansión histórica en la Plaza de San Francisco, en el Centro Histórico de Quito, Patrimonio de la Humanidad. Reabierta como hotel boutique en 2011."},{"slug":"chateau-frontenac-quebec","name":"Château Frontenac","city":"Quebec","country":"Canadá","art":"frontenac","desc":"El Château Frontenac domina el Viejo Quebec desde 1893. Diseñado por Bruce Price para el Canadian Pacific, es uno de los hoteles más fotografiados del mundo."},{"slug":"cipriani-venecia","name":"Belmond Hotel Cipriani","city":"Venecia","country":"Italia","art":"cipriani","desc":"El Hotel Cipriani está en la isla de la Giudecca, Venecia, con vistas al Gran Canal y acceso en lancha privada. Fundado en 1958 por Giuseppe Cipriani."},{"slug":"claridges-londres","name":"Claridge's","city":"Londres","country":"Reino Unido","art":"claridges","desc":"Claridge's en Mayfair: el gran hotel Art Déco de Londres, sinónimo de elegancia británica desde hace más de un siglo."},{"slug":"copacabana-palace-rio","name":"Copacabana Palace","city":"Río de Janeiro","country":"Brasil","art":"copacabana","desc":"Copacabana Palace en Río de Janeiro: la fachada blanca Art Déco que define el perfil de Copacabana desde 1923."},{"slug":"danieli-venecia","name":"Hotel Danieli","city":"Venecia","country":"Italia","art":"danieli","desc":"El Hotel Danieli ocupa un palazzo gótico veneciano a pasos del Palacio Ducal."},{"slug":"four-seasons-george-v-paris","name":"Four Seasons George V","city":"París","country":"Francia","art":"georgev","desc":"El Four Seasons Hotel George V abrió en 1928 en la Avenue George V de París."},{"slug":"hotel-del-coronado-san-diego","name":"Hotel del Coronado","city":"San Diego","country":"Estados Unidos","art":"coronado","desc":"El Hotel del Coronado abrió en 1888 en la isla de Coronado, California. Monumento Histórico Nacional con su inconfundible tejado rojo y torreones victorianos."},{"slug":"hotel-nacional-habana","name":"Hotel Nacional de Cuba","city":"La Habana","country":"Cuba","art":"nacional","desc":"Hotel Nacional de Cuba en La Habana: Monumento Nacional, Art Déco caribeño y testigo de un siglo de historia cubana."},{"slug":"park-hyatt-tokio","name":"Park Hyatt Tokio","city":"Tokio","country":"Japón","art":"parkhyatt","desc":"El Park Hyatt Tokio ocupa los pisos 39 a 52 de la Torre Shinjuku Park, con vistas al Monte Fuji y el New York Bar en el piso 52."},{"slug":"pera-palace-estambul","name":"Pera Palace Hotel","city":"Estambul","country":"Turquía","art":"pera","desc":"El Pera Palace fue inaugurado en 1895 para alojar a los pasajeros del Orient Express en Estambul."},{"slug":"raffles-singapur","name":"Raffles Singapore","city":"Singapur","country":"Singapur","art":"raffles","desc":"Raffles Hotel en Singapur: historia del gran hotel colonial del sudeste asiático, sede del Singapore Sling y símbolo de una era."},{"slug":"ritz-paris","name":"The Ritz Paris","city":"París","country":"Francia","art":"ritz","desc":"The Ritz Paris en la Place Vendôme desde 1898: el hotel que dio nombre al lujo moderno, sede del Bar Hemingway y símbolo del París más legendario."},{"slug":"the-dorchester-londres","name":"The Dorchester","city":"Londres","country":"Reino Unido","art":"dorchester","desc":"The Dorchester abrió en 1931 en Park Lane frente a Hyde Park, con una arquitectura Art Déco distintiva."},{"slug":"the-plaza-nueva-york","name":"The Plaza","city":"Nueva York","country":"Estados Unidos","art":"plaza","desc":"Descubre la historia y el carácter de The Plaza, el hotel Beaux-Arts más reconocible de Nueva York."},{"slug":"the-savoy-londres","name":"The Savoy","city":"Londres","country":"Reino Unido","art":"savoy","desc":"The Savoy abrió en 1889 en The Strand y se convirtió en referencia del hotelería moderna."},{"slug":"villa-deste-como","name":"Villa d'Este","city":"Como","country":"Italia","art":"villadeste","desc":"Villa d'Este es una villa del siglo XVI a orillas del lago de Como, en Cernobbio, que funciona como hotel de lujo."}]</script>
+  <script src="/assets/js/nav.js"></script>
+  <script src="/assets/js/compare.js" defer></script>
+</body>
+</html>

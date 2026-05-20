@@ -10,19 +10,26 @@
   <meta property="og:title" content="Hoteles históricos en Londres — Guía editorial">
   <meta property="og:description" content="The Savoy, Claridge's y The Dorchester: los tres grandes clásicos del lujo londinense. Guía editorial en Hoteles Famosos.">
   <meta property="og:url" content="https://hotelesfamosos.com/ciudades/londres/">
-  <meta property="og:image" content="https://hotelesfamosos.com/assets/img/og/default.svg">
+  <meta property="og:image" content="https://hotelesfamosos.com/assets/img/hero/ciudad-londres-hero.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="900">
+  <meta property="og:image:alt" content="Vista aérea de Londres con el Tower Bridge sobre el Támesis">
   <meta property="og:locale" content="es_419">
   <meta property="og:site_name" content="Hoteles Famosos">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Hoteles históricos en Londres — Guía editorial">
   <meta name="twitter:description" content="The Savoy, Claridge's y The Dorchester en una guía editorial de los grandes hoteles londinenses.">
-  <meta name="twitter:image" content="https://hotelesfamosos.com/assets/img/og/default.svg">
+  <meta name="twitter:image" content="https://hotelesfamosos.com/assets/img/hero/ciudad-londres-hero.jpg">
+  <meta name="twitter:image:alt" content="Vista aérea de Londres con el Tower Bridge sobre el Támesis">
   <link rel="icon" type="image/svg+xml" href="/assets/img/favicons/favicon.svg">
   <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/assets/img/favicons/apple-touch-icon.png">
   <meta name="theme-color" content="#1B2A4A">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap"></noscript>
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/components.css">
   <link rel="stylesheet" href="/assets/css/pages.css">
@@ -31,6 +38,9 @@
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
+    "image": "https://hotelesfamosos.com/assets/img/hero/ciudad-londres-hero.jpg",
+    "inLanguage": "es",
+    "isPartOf": {"@type": "WebSite", "name": "Hoteles Famosos", "url": "https://hotelesfamosos.com/"},
     "name": "Hoteles históricos en Londres",
     "description": "Guía editorial de los grandes hoteles históricos de Londres: The Savoy, Claridge's y The Dorchester.",
     "url": "https://hotelesfamosos.com/ciudades/londres/",
@@ -42,6 +52,47 @@
         {"@type": "ListItem","position": 3,"name": "Londres","item": "https://hotelesfamosos.com/ciudades/londres/"}
       ]
     }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "inLanguage": "es",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuáles son los grandes hoteles clásicos de Londres?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Londres tiene tres grandes clásicos del lujo hotelero: The Savoy, Claridge's y The Dorchester, tres expresiones distintas de un mismo modelo, ubicadas en puntos diferentes del West End. Los tres han sido sometidos a restauraciones significativas en distintos períodos del siglo XX y XXI."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Dónde está The Savoy y de qué año es?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Savoy data de 1889 y está en The Strand, entre el West End y el río Támesis. Su ubicación le da acceso a Covent Garden y al distrito teatral."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué caracteriza a The Dorchester frente a los otros hoteles londinenses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Dorchester, de 1931, está en Park Lane frente a Hyde Park y representa el Art Déco de entreguerras y la gastronomía de alta gama. Se encuentra en Mayfair, el barrio de las galerías de arte, las casas de subastas y las boutiques de las calles Bond y Mount."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Hay hoteles de interés histórico en Londres fuera del West End?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí, además del triángulo clásico, Knightsbridge, South Kensington y Belgravia concentran establecimientos de lujo próximos a los grandes museos del South Kensington, como el Victoria and Albert Museum y el Natural History Museum. La City, al este, ha visto surgir hoteles de diseño contemporáneo en edificios históricos rehabilitados."
+        }
+      }
+    ]
   }
   </script>
 </head>
@@ -63,7 +114,7 @@
   </header>
 
   <section class="page-hero art--city-london" aria-label="Cabecera Londres">
-    <img src="/assets/img/hero/ciudad-londres-hero.jpg" alt="Vista aérea de Londres con el Tower Bridge sobre el Támesis" class="page-hero__img" width="1600" height="900" loading="eager">
+    <img src="/assets/img/hero/ciudad-londres-hero.jpg" alt="Vista aérea de Londres con el Tower Bridge sobre el Támesis" class="page-hero__img" width="1600" height="900" loading="eager" fetchpriority="high">
     <div class="page-hero__inner">
       <nav class="breadcrumb breadcrumb--light" aria-label="Ruta de navegación">
         <ol>
@@ -137,6 +188,28 @@
     </div>
 
   </div>
+  <section class="container section" aria-label="Preguntas frecuentes">
+    <div class="faq-block">
+      <h2 class="faq-block__title">Preguntas frecuentes</h2>
+      <div class="faq-item">
+        <p class="faq-item__question">¿Cuáles son los grandes hoteles clásicos de Londres?</p>
+        <div class="faq-item__answer"><p>Londres tiene tres grandes clásicos del lujo hotelero: The Savoy, Claridge's y The Dorchester, tres expresiones distintas de un mismo modelo, ubicadas en puntos diferentes del West End. Los tres han sido sometidos a restauraciones significativas en distintos períodos del siglo XX y XXI.</p></div>
+      </div>
+      <div class="faq-item">
+        <p class="faq-item__question">¿Dónde está The Savoy y de qué año es?</p>
+        <div class="faq-item__answer"><p>The Savoy data de 1889 y está en The Strand, entre el West End y el río Támesis. Su ubicación le da acceso a Covent Garden y al distrito teatral.</p></div>
+      </div>
+      <div class="faq-item">
+        <p class="faq-item__question">¿Qué caracteriza a The Dorchester frente a los otros hoteles londinenses?</p>
+        <div class="faq-item__answer"><p>The Dorchester, de 1931, está en Park Lane frente a Hyde Park y representa el Art Déco de entreguerras y la gastronomía de alta gama. Se encuentra en Mayfair, el barrio de las galerías de arte, las casas de subastas y las boutiques de las calles Bond y Mount.</p></div>
+      </div>
+      <div class="faq-item">
+        <p class="faq-item__question">¿Hay hoteles de interés histórico en Londres fuera del West End?</p>
+        <div class="faq-item__answer"><p>Sí, además del triángulo clásico, Knightsbridge, South Kensington y Belgravia concentran establecimientos de lujo próximos a los grandes museos del South Kensington, como el Victoria and Albert Museum y el Natural History Museum. La City, al este, ha visto surgir hoteles de diseño contemporáneo en edificios históricos rehabilitados.</p></div>
+      </div>
+    </div>
+  </section>
+
   <!-- YouTube Shorts module -->
   <section class="shorts-section" data-shorts-feed="/data/shorts/ciudad-londres-hoteles.json" data-shorts-type="city">
     <div class="container">
@@ -156,7 +229,7 @@
         <div><p class="footer-brand">Hoteles Famosos</p><p class="footer-tagline">La Bitácora de los Grandes Hoteles del Mundo</p></div>
         <nav aria-label="Hoteles"><h4>Hoteles</h4><ul><li><a href="/hoteles/">Todos los hoteles</a></li><li><a href="/colecciones/hoteles-gran-lujo-clasico/">Gran lujo clásico</a></li></ul></nav>
         <nav aria-label="Explorar"><h4>Explorar</h4><ul><li><a href="/ciudades/">Ciudades</a></li><li><a href="/colecciones/">Colecciones</a></li><li><a href="/guias/">Guías editoriales</a></li></ul></nav>
-        <nav aria-label="Acerca de"><h4>Acerca de</h4><ul><li><a href="/acerca-de/">Acerca de</a></li><li><a href="/politica-editorial/">Política editorial</a></li></ul></nav>
+        <nav aria-label="Acerca de"><h4>Acerca de</h4><ul><li><a href="/acerca-de/">Acerca de</a></li><li><a href="/politica-editorial/">Política editorial</a></li><li><a href="/creditos-imagenes/">Créditos de imágenes</a></li></ul></nav>
       </div>
       <p class="footer-disclaimer">Hoteles Famosos es una guía editorial e inspiracional. No somos una agencia de viajes ni una plataforma de reservas. La información puede cambiar; antes de planificar una visita o estadía, verifica tarifas, disponibilidad, servicios, políticas y datos históricos en fuentes oficiales del hotel o fuentes confiables actualizadas.</p>
       <p class="footer-copy">© 2025 Hoteles Famosos. Contenido editorial con fines informativos.</p>

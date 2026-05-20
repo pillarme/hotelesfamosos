@@ -160,3 +160,34 @@ All content follows the policy at `/politica-editorial/`. Key rules:
 - Uncertain claims use cautious wording ("conviene verificar...", "según fuentes ampliamente citadas...") or are omitted entirely.
 - The sitewide disclaimer appears in the footer of every public page: *"Hoteles Famosos es una guía editorial e inspiracional. No somos una agencia de viajes ni una plataforma de reservas..."*
 - No booking engine, no prices, no live availability.
+
+## Hotel photography & image credits
+
+Each hotel profile uses a real photograph sourced from **Wikimedia Commons**
+under a free license (Creative Commons BY / BY-SA, CC0, or public domain).
+Each image is processed into two sizes:
+
+- `assets/img/hotels/<slug>.jpg` — 1600×900 page hero
+- `assets/img/tiles/<slug>.jpg` — 800×600 card tile (wired through the
+  `.art--<hotel>` CSS classes in `pages.css`)
+
+Every image is recorded in **`data/image-credits.json`** (author, license,
+license URL, Commons source URL). This is the single source of truth for
+attribution.
+
+### Updating the attributions page
+
+The `/creditos-imagenes/` page is generated from the manifest. When you add
+or change an image:
+
+1. Add/edit its entry in `data/image-credits.json`.
+2. Run `python3 scripts/build-attributions.py`.
+3. Commit `data/image-credits.json` and `creditos-imagenes/index.html` together.
+
+The CC BY / BY-SA licenses require attribution; keeping this page current is
+how the project meets that obligation.
+
+## Extra hub pages
+
+- `hoteles-por-pais/` — the 20 hotels grouped by country (directory + `ItemList` schema).
+- `creditos-imagenes/` — generated image attributions page (see above).
