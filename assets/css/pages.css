@@ -668,3 +668,12 @@
 .art--col-clasico { background-image: url(/assets/img/tiles/ritz-paris.jpg); }
 .art--col-leyendas { background-image: url(/assets/img/tiles/the-savoy-londres.jpg); }
 .art--col-antiguos { background-image: url(/assets/img/tiles/raffles-singapur.jpg); }
+
+/* ════ New collection tiles (Batch 1) ════ */
+.art--col-artdeco, .art--col-norteamerica, .art--col-asia, .art--col-hoteleros {
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+}
+.art--col-artdeco { background-image: url(/assets/img/tiles/copacabana-palace-rio.jpg); }
+.art--col-norteamerica { background-image: url(/assets/img/tiles/chateau-frontenac-quebec.jpg); }
+.art--col-asia { background-image: url(/assets/img/tiles/pera-palace-estambul.jpg); }
+.art--col-hoteleros { background-image: url(/assets/img/tiles/ritz-paris.jpg); }
