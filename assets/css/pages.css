@@ -553,3 +553,65 @@
   .hotel-profile__sidebar { position: static; }
   .guide__sidebar { position: static; }
 }
+
+/* ════ Hotel photo tiles (Wikimedia Commons) ════ */
+.art--alvear, .art--beverlyhills, .art--burj, .art--cipriani, .art--claridges,
+.art--copacabana, .art--coronado, .art--danieli, .art--dorchester, .art--frontenac,
+.art--gangotena, .art--georgev, .art--nacional, .art--parkhyatt, .art--pera,
+.art--plaza, .art--raffles, .art--ritz, .art--savoy, .art--villadeste {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.art--alvear { background-image: url(/assets/img/tiles/alvear-palace-buenos-aires.jpg); }
+.art--beverlyhills { background-image: url(/assets/img/tiles/beverly-hills-hotel.jpg); }
+.art--burj { background-image: url(/assets/img/tiles/burj-al-arab-dubai.jpg); }
+.art--cipriani { background-image: url(/assets/img/tiles/cipriani-venecia.jpg); }
+.art--claridges { background-image: url(/assets/img/tiles/claridges-londres.jpg); }
+.art--copacabana { background-image: url(/assets/img/tiles/copacabana-palace-rio.jpg); }
+.art--coronado { background-image: url(/assets/img/tiles/hotel-del-coronado-san-diego.jpg); }
+.art--danieli { background-image: url(/assets/img/tiles/danieli-venecia.jpg); }
+.art--dorchester { background-image: url(/assets/img/tiles/the-dorchester-londres.jpg); }
+.art--frontenac { background-image: url(/assets/img/tiles/chateau-frontenac-quebec.jpg); }
+.art--gangotena { background-image: url(/assets/img/tiles/casa-gangotena-quito.jpg); }
+.art--georgev { background-image: url(/assets/img/tiles/four-seasons-george-v-paris.jpg); }
+.art--nacional { background-image: url(/assets/img/tiles/hotel-nacional-habana.jpg); }
+.art--parkhyatt { background-image: url(/assets/img/tiles/park-hyatt-tokio.jpg); }
+.art--pera { background-image: url(/assets/img/tiles/pera-palace-estambul.jpg); }
+.art--plaza { background-image: url(/assets/img/tiles/the-plaza-nueva-york.jpg); }
+.art--raffles { background-image: url(/assets/img/tiles/raffles-singapur.jpg); }
+.art--ritz { background-image: url(/assets/img/tiles/ritz-paris.jpg); }
+.art--savoy { background-image: url(/assets/img/tiles/the-savoy-londres.jpg); }
+.art--villadeste { background-image: url(/assets/img/tiles/villa-deste-como.jpg); }
+.hotel-card__monogram { display: none; }
+
+/* ════ Hoteles por país ════ */
+.country-stats { display: flex; gap: var(--space-8); margin-top: var(--space-6); padding: 0; list-style: none; flex-wrap: wrap; }
+.country-stats__num { display: block; font-family: var(--font-serif); font-size: var(--text-4xl); font-weight: 700; color: var(--color-gold); line-height: 1; }
+.country-stats__label { font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-text-light); }
+.country-grid { display: grid; gap: var(--space-5); }
+@media (min-width: 768px) { .country-grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1024px) { .country-grid { grid-template-columns: 1fr 1fr 1fr; } }
+.country-panel { background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-5); }
+.country-panel__head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-3); padding-bottom: var(--space-3); margin-bottom: var(--space-1); border-bottom: 1px solid var(--color-border); }
+.country-panel__name { font-family: var(--font-serif); font-size: var(--text-xl); color: var(--color-navy); margin: 0; }
+.country-panel__count { font-size: var(--text-xs); font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--color-gold); white-space: nowrap; }
+.country-hotels { list-style: none; padding: 0; margin: 0; }
+.country-hotel { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-3); padding: var(--space-3) 0; border-bottom: 1px solid var(--color-border); text-decoration: none; }
+.country-hotel:last-child { border-bottom: 0; }
+.country-hotel__name { font-weight: 600; color: var(--color-navy); }
+.country-hotel:hover .country-hotel__name, .country-hotel:focus-visible .country-hotel__name { color: var(--color-gold); }
+.country-hotel__city { font-size: var(--text-sm); color: var(--color-text-light); }
+.country-cta { margin-top: var(--space-10); text-align: center; }
+.country-cta__links { display: flex; flex-wrap: wrap; gap: var(--space-3); justify-content: center; margin-top: var(--space-4); }
+
+/* ════ Créditos de imágenes ════ */
+.credits-intro { max-width: 62ch; margin-bottom: var(--space-8); }
+.credits-intro__note { font-size: var(--text-sm); color: var(--color-text-light); margin-top: var(--space-3); }
+.credits-list { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--space-4); }
+@media (min-width: 768px) { .credits-list { grid-template-columns: 1fr 1fr; } }
+.credit-item { background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-4) var(--space-5); }
+.credit-item__hotel { font-family: var(--font-serif); font-size: var(--text-lg); font-weight: 600; color: var(--color-navy); margin: 0 0 var(--space-2); }
+.credit-item__meta { display: flex; flex-direction: column; gap: 2px; font-size: var(--text-sm); color: var(--color-text-light); margin: 0; }
+.credit-item__meta a { color: var(--color-navy); }
+.credits-foot { margin-top: var(--space-8); font-size: var(--text-sm); color: var(--color-text-light); max-width: 72ch; }

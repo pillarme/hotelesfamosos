@@ -325,6 +325,14 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Directorio por país -->
+  <url>
+    <loc>https://hotelesfamosos.com/hoteles-por-pais/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Páginas institucionales -->
   <url>
     <loc>https://hotelesfamosos.com/acerca-de/</loc>
@@ -337,6 +345,12 @@
     <lastmod>2026-05-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://hotelesfamosos.com/creditos-imagenes/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
 
 </urlset>

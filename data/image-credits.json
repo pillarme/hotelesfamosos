@@ -1,0 +1,286 @@
+{
+  "updated": "2026-05-20",
+  "note": "Imágenes de los perfiles de hotel obtenidas de Wikimedia Commons bajo licencias libres. Al añadir nuevas imágenes, agrega su entrada aquí y ejecuta scripts/build-attributions.py.",
+  "images": [
+    {
+      "slug": "alvear-palace-buenos-aires",
+      "hotel": "Alvear Palace Hotel",
+      "files": [
+        "/assets/img/hotels/alvear-palace-buenos-aires.jpg",
+        "/assets/img/tiles/alvear-palace-buenos-aires.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Buenos_Aires_-_Avenida_Alvear_-_20090104-r.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Buenos_Aires_-_Avenida_Alvear_-_20090104-r.jpg",
+      "author": "Taken by the uploader, w:es:Usuario:Barcex",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "slug": "beverly-hills-hotel",
+      "hotel": "The Beverly Hills Hotel",
+      "files": [
+        "/assets/img/hotels/beverly-hills-hotel.jpg",
+        "/assets/img/tiles/beverly-hills-hotel.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "The_Beverly_Hills_Hotel_(2013).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:The_Beverly_Hills_Hotel_(2013).jpg",
+      "author": "Alan Light",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "slug": "burj-al-arab-dubai",
+      "hotel": "Burj Al Arab",
+      "files": [
+        "/assets/img/hotels/burj-al-arab-dubai.jpg",
+        "/assets/img/tiles/burj-al-arab-dubai.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Burj Al Arab and the beach (Pexels 823696).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Burj_Al_Arab_and_the_beach_(Pexels_823696).jpg",
+      "author": "Aleksandar Pasaric",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "slug": "casa-gangotena-quito",
+      "hotel": "Casa Gangotena",
+      "files": [
+        "/assets/img/hotels/casa-gangotena-quito.jpg",
+        "/assets/img/tiles/casa-gangotena-quito.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "(Palacio Gangotena, Quito).JPG",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:(Palacio_Gangotena,_Quito).JPG",
+      "author": "David Adam Kess",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "slug": "chateau-frontenac-quebec",
+      "hotel": "Château Frontenac",
+      "files": [
+        "/assets/img/hotels/chateau-frontenac-quebec.jpg",
+        "/assets/img/tiles/chateau-frontenac-quebec.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Château_Frontenac_02.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_Frontenac_02.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "slug": "cipriani-venecia",
+      "hotel": "Belmond Hotel Cipriani",
+      "files": [
+        "/assets/img/hotels/cipriani-venecia.jpg",
+        "/assets/img/tiles/cipriani-venecia.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Hotel_Cipriani,_Venice.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hotel_Cipriani,_Venice.jpg",
+      "author": "Morn",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "slug": "claridges-londres",
+      "hotel": "Claridge's",
+      "files": [
+        "/assets/img/hotels/claridges-londres.jpg",
+        "/assets/img/tiles/claridges-londres.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Claridge's, London-24300565745.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Claridge%27s,_London-24300565745.jpg",
+      "author": "Chris Sampson",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "slug": "copacabana-palace-rio",
+      "hotel": "Copacabana Palace",
+      "files": [
+        "/assets/img/hotels/copacabana-palace-rio.jpg",
+        "/assets/img/tiles/copacabana-palace-rio.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Hotel_Copacabana_Palace,_Río_de_Janeiro_A74224720241122.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hotel_Copacabana_Palace,_R%C3%ADo_de_Janeiro_A74224720241122.jpg",
+      "author": "Rjcastillo",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "slug": "danieli-venecia",
+      "hotel": "Hotel Danieli",
+      "files": [
+        "/assets/img/hotels/danieli-venecia.jpg",
+        "/assets/img/tiles/danieli-venecia.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Hotel_Danieli-dandolo_2012.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hotel_Danieli-dandolo_2012.jpg",
+      "author": "Xtrasystole",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "slug": "four-seasons-george-v-paris",
+      "hotel": "Four Seasons Hotel George V",
+      "files": [
+        "/assets/img/hotels/four-seasons-george-v-paris.jpg",
+        "/assets/img/tiles/four-seasons-george-v-paris.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Hôtel_George-V,_31_avenue_George-V,_Paris_8e_1.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_George-V,_31_avenue_George-V,_Paris_8e_1.jpg",
+      "author": "Polymagou",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "slug": "hotel-del-coronado-san-diego",
+      "hotel": "Hotel del Coronado",
+      "files": [
+        "/assets/img/hotels/hotel-del-coronado-san-diego.jpg",
+        "/assets/img/tiles/hotel-del-coronado-san-diego.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Hotel_Del_Coronado_Drone_Picture_Turf_Lawn.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hotel_Del_Coronado_Drone_Picture_Turf_Lawn.jpg",
+      "author": "Armandoartist",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "slug": "hotel-nacional-habana",
+      "hotel": "Hotel Nacional de Cuba",
+      "files": [
+        "/assets/img/hotels/hotel-nacional-habana.jpg",
+        "/assets/img/tiles/hotel-nacional-habana.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "The_Hotel_Nacional,_Havana,_Cuba_LCCN2010638840.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:The_Hotel_Nacional,_Havana,_Cuba_LCCN2010638840.jpg",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain",
+      "license_url": "https://en.wikipedia.org/wiki/Public_domain"
+    },
+    {
+      "slug": "park-hyatt-tokio",
+      "hotel": "Park Hyatt Tokio",
+      "files": [
+        "/assets/img/hotels/park-hyatt-tokio.jpg",
+        "/assets/img/tiles/park-hyatt-tokio.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Shinjuku_Park_Tower_2018_from_MetGovBld.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Shinjuku_Park_Tower_2018_from_MetGovBld.jpg",
+      "author": "FLOEP",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "slug": "pera-palace-estambul",
+      "hotel": "Pera Palace Hotel",
+      "files": [
+        "/assets/img/hotels/pera-palace-estambul.jpg",
+        "/assets/img/tiles/pera-palace-estambul.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Pera_Palace_Hotel_Jumeirah_-_panoramio.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Pera_Palace_Hotel_Jumeirah_-_panoramio.jpg",
+      "author": "qwesy qwesy",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "slug": "raffles-singapur",
+      "hotel": "Raffles Singapore",
+      "files": [
+        "/assets/img/hotels/raffles-singapur.jpg",
+        "/assets/img/tiles/raffles-singapur.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Wikimania_Singapore_2023_118.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Wikimania_Singapore_2023_118.jpg",
+      "author": "Anthere",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "slug": "ritz-paris",
+      "hotel": "The Ritz Paris",
+      "files": [
+        "/assets/img/hotels/ritz-paris.jpg",
+        "/assets/img/tiles/ritz-paris.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Hôtel_Ritz.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ritz.jpg",
+      "author": "Arthur Weidmann",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "slug": "the-dorchester-londres",
+      "hotel": "The Dorchester",
+      "files": [
+        "/assets/img/hotels/the-dorchester-londres.jpg",
+        "/assets/img/tiles/the-dorchester-londres.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "The_Dorchester_Hotel_in_London_Mayfair,_England_United_Kingdom_(4579989922).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:The_Dorchester_Hotel_in_London_Mayfair,_England_United_Kingdom_(4579989922).jpg",
+      "author": "|| UggBoy♥UggGirl || PHOTO || WORLD || TRAVEL ||",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "slug": "the-plaza-nueva-york",
+      "hotel": "The Plaza",
+      "files": [
+        "/assets/img/hotels/the-plaza-nueva-york.jpg",
+        "/assets/img/tiles/the-plaza-nueva-york.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "New_York_-_Manhattan_-_Plaza_Hotel.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:New_York_-_Manhattan_-_Plaza_Hotel.jpg",
+      "author": "Yarl",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "slug": "the-savoy-londres",
+      "hotel": "The Savoy",
+      "files": [
+        "/assets/img/hotels/the-savoy-londres.jpg",
+        "/assets/img/tiles/the-savoy-londres.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Hôtel_Savoy_The_Strand_Londres_-_edited.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Savoy_The_Strand_Londres_-_edited.jpg",
+      "author": "Photo by CVB, edited and cropped by Cart",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "slug": "villa-deste-como",
+      "hotel": "Villa d'Este",
+      "files": [
+        "/assets/img/hotels/villa-deste-como.jpg",
+        "/assets/img/tiles/villa-deste-como.jpg"
+      ],
+      "source": "Wikimedia Commons",
+      "commons_file": "Villa_d'Este_Aerial_Photo.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Villa_d%27Este_Aerial_Photo.jpg",
+      "author": "Ikreis",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ]
+}
