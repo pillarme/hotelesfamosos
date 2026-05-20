@@ -325,9 +325,15 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Directorio por país -->
+  <!-- Directorio por país y comparador -->
   <url>
     <loc>https://hotelesfamosos.com/hoteles-por-pais/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hotelesfamosos.com/comparar-hoteles/</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
