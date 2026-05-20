@@ -1,0 +1,544 @@
+{
+  "site": "hotelesfamosos.com",
+  "name": "La Bitácora de los Grandes Hoteles del Mundo",
+  "buildDate": "2026-05-13",
+  "lastUpdated": "2026-05-13",
+  "version": "1.2.0",
+  "status": "complete",
+  "totalPages": 57,
+  "pages": {
+    "homepage": 1,
+    "hotelProfiles": 20,
+    "hotelHub": 1,
+    "cityGuides": 10,
+    "citiesHub": 1,
+    "collections": 10,
+    "collectionsHub": 1,
+    "editorialGuides": 6,
+    "guidesHub": 1,
+    "institutional": 2,
+    "errorPages": 1,
+    "supportFiles": 4
+  },
+  "supportFiles": {
+    "sitemap": "sitemap.xml",
+    "robots": "robots.txt",
+    "manifest": "manifest.webmanifest",
+    "buildReport": "build/build-report.json"
+  },
+  "assets": {
+    "css": [
+      "assets/css/main.css",
+      "assets/css/components.css",
+      "assets/css/pages.css"
+    ],
+    "js": [
+      "assets/js/nav.js"
+    ],
+    "images": [
+      "assets/img/favicons/favicon.svg",
+      "assets/img/og/default.svg"
+    ]
+  },
+  "designSystem": {
+    "colorTokens": 8,
+    "typographyFonts": [
+      "Playfair Display",
+      "Inter"
+    ],
+    "typographySource": "Google Fonts CDN",
+    "gridSystem": "CSS Grid (2 / 3 / 4 col responsive)",
+    "breakpoints": {
+      "sm": "540px",
+      "md": "768px",
+      "lg": "1024px",
+      "xl": "1280px"
+    }
+  },
+  "seo": {
+    "schemaPagesAll": true,
+    "canonicalAll": true,
+    "ogTagsAll": true,
+    "twitterCardsAll": true,
+    "breadcrumbsAll": true,
+    "faqSchemaOnProfiles": true,
+    "faqSchemaOnGuides": true
+  },
+  "editorial": {
+    "language": "es",
+    "targetAudience": "Spanish-speaking travelers, Latin America focus",
+    "factPolicy": "Cautious — no fabricated claims, reputational framing for unverified history",
+    "bookingEngine": false,
+    "prices": false,
+    "availability": false
+  },
+  "technical": {
+    "framework": "none — pure HTML/CSS/JS",
+    "buildTool": "none — static files",
+    "hostingTarget": "GitHub Pages",
+    "jsFramework": "none",
+    "cssPreprocessor": "none — CSS custom properties",
+    "searchEngine": "none — navigation-only v1",
+    "externalDependencies": [
+      "Google Fonts CDN"
+    ]
+  },
+  "shortsIntegration": {
+    "status": "complete",
+    "completedDate": "2026-05-13",
+    "targetPages": 20,
+    "feedFilesExpected": 20,
+    "feedFilesFound": 20,
+    "renderer": {
+      "js": "assets/js/shorts.js?v=shorts1",
+      "css": "assets/css/shorts.css?v=shorts1",
+      "defaultCards": 8,
+      "expandCards": 16,
+      "layoutStyle": "horizontal-rail"
+    },
+    "urlSafetyRules": [
+      "All video IDs pass through getVideoId() which returns null if the string 'undefined' is found",
+      "All video IDs are passed through encodeURIComponent() before being embedded in URLs",
+      "Feed paths are validated for 'undefined' before fetch is called; section hidden if invalid",
+      "Thumbnail uses item.thumbnail only if it starts with 'https://' and contains no 'undefined'; falls back to hqdefault.jpg via video_id"
+    ],
+    "validationResults": {
+      "allPagesHaveShortsCSS": true,
+      "allPagesHaveShortsJS": true,
+      "allFeedPathsValid": true,
+      "noUndefinedInPaths": true,
+      "noViajenyxReferences": true,
+      "nonTargetPagesClean": true,
+      "allFeedFilesPresent": true
+    },
+    "feedSource": "Real feeds generated separately by local yt-dlp script in hotelesfamosos-shorts/. Feeds are copied into hotelesfamosos/data/shorts/ before deployment. The website itself does NOT scrape, call YouTube APIs, or generate feeds.",
+    "targetPagesList": [
+      "index.html",
+      "hoteles/index.html",
+      "hoteles/the-plaza-nueva-york/index.html",
+      "hoteles/raffles-singapur/index.html",
+      "hoteles/copacabana-palace-rio/index.html",
+      "hoteles/hotel-nacional-habana/index.html",
+      "hoteles/ritz-paris/index.html",
+      "hoteles/burj-al-arab-dubai/index.html",
+      "hoteles/the-savoy-londres/index.html",
+      "hoteles/danieli-venecia/index.html",
+      "hoteles/hotel-del-coronado-san-diego/index.html",
+      "hoteles/beverly-hills-hotel/index.html",
+      "hoteles/park-hyatt-tokio/index.html",
+      "ciudades/nueva-york/index.html",
+      "ciudades/paris/index.html",
+      "ciudades/londres/index.html",
+      "ciudades/la-habana/index.html",
+      "ciudades/buenos-aires/index.html",
+      "ciudades/venecia/index.html",
+      "ciudades/dubai/index.html"
+    ]
+  },
+  "qaRun": {
+    "timestamp": "2026-05-13",
+    "status": "passed",
+    "summary": "Full QA pass completed. 3 issues found and fixed. No blocking issues remain.",
+    "inventory": {
+      "htmlFiles": 54,
+      "publicPages": 53,
+      "cssFiles": 4,
+      "jsFiles": 2,
+      "dataShortsFeedsPresent": 20,
+      "registryPresent": true,
+      "curationSummaryPresent": true,
+      "sitemapPresent": true,
+      "robotsPresent": true,
+      "readmePresent": true,
+      "buildReportPresent": true
+    },
+    "checks": {
+      "htmlStructure": {
+        "status": "pass",
+        "doctypeAll": true,
+        "htmlLangEsAll": true,
+        "charsetAll": true,
+        "viewportAll": true,
+        "oneH1PerPage": true,
+        "noEmptyH1": true,
+        "noTodo": true,
+        "noLorem": true,
+        "noDebugText": true
+      },
+      "routing": {
+        "status": "pass_with_fix",
+        "internalLinksChecked": "all",
+        "brokenLinksFound": 1,
+        "brokenLinksFixed": 1,
+        "fixDetail": "hoteles/the-savoy-londres/index.html: /ciudades/Londres/ → /ciudades/londres/ (case sensitivity fix for GitHub Pages Linux hosting)"
+      },
+      "sitemap": {
+        "status": "pass",
+        "urlCount": 53,
+        "domain": "https://hotelesfamosos.com",
+        "noWrongDomains": true,
+        "404excluded": true,
+        "allPublicPagesPresent": true,
+        "valid": true
+      },
+      "robots": {
+        "status": "pass",
+        "allowAll": true,
+        "sitemapPointer": "https://hotelesfamosos.com/sitemap.xml"
+      },
+      "metadata": {
+        "status": "pass",
+        "canonicalAll": "all public pages",
+        "og_url_all": "all public pages",
+        "og_title_all": "all public pages",
+        "og_image_all": "https://hotelesfamosos.com/assets/img/og/default.svg",
+        "og_locale_all": "es_419",
+        "twitter_card_all": "all public pages",
+        "domain": "https://hotelesfamosos.com — no wrong domain refs",
+        "note_404": "404.html intentionally has noindex and no canonical/OG tags"
+      },
+      "jsonLd": {
+        "status": "pass",
+        "blocksValidated": "all",
+        "jsonParseErrors": 0,
+        "noUndefined": true,
+        "noWrongDomains": true
+      },
+      "accessibility": {
+        "status": "pass_with_fix",
+        "issueFixed": "404.html: removed duplicate role='main' from div inside <main>",
+        "navAriaLabel": true,
+        "mobileMenuAriaExpanded": true,
+        "modalCloseAriaLabel": true,
+        "iframeTitle": "set by shorts.js at open time",
+        "shortsCardsKeyboard": true,
+        "allImagesHaveAlt": true
+      },
+      "editorial": {
+        "status": "pass",
+        "riskyPhrasesReviewed": true,
+        "claimsReview": "All architect, opening date, and celebrity association claims verified to use cautious wording ('conviene verificar', 'según fuentes ampliamente citadas', etc.) or are widely documented historical facts",
+        "editorialDisclaimerOnAllPages": true,
+        "noPrices": true,
+        "noBookingCTAs": true,
+        "noFakeAvailability": true
+      },
+      "shortsQa": {
+        "status": "pass",
+        "pagesChecked": 20,
+        "feedsChecked": 20,
+        "allFeedsPresent": true,
+        "allPagesHaveCssAndJs": true,
+        "noBadFeedPaths": true,
+        "rendererSafety": {
+          "noEmbedUndefined": true,
+          "noShortsUndefined": true,
+          "noWatchVUndefined": true,
+          "noHrefUndefined": true,
+          "encodeURIComponentUsed": true,
+          "emptyFeedHandled": true,
+          "fetchErrorHandled": true
+        },
+        "modalPlayback": {
+          "inlineModal": true,
+          "noDirectYouTubeNavigation": true,
+          "closeButton": true,
+          "escapeCloses": true,
+          "overlayCloses": true,
+          "iframeClearedOnClose": true
+        },
+        "horizontalRail": {
+          "scrollable": true,
+          "scrollSnap": true,
+          "defaultCards": 8,
+          "expandTo": 16,
+          "noPageOverflow": "overflow-x moved to html/body in main.css sitewide"
+        },
+        "noViajenyxReferences": true
+      },
+      "assetPaths": {
+        "status": "pass",
+        "cssRootRelative": true,
+        "jsRootRelative": true,
+        "faviconRootRelative": true,
+        "manifestRootRelative": true,
+        "externalDependencies": [
+          "Google Fonts CDN only"
+        ],
+        "noFilesystemAbsolutePaths": true,
+        "noAccidentalLocalRefs": true
+      },
+      "responsive": {
+        "status": "pass",
+        "overflowXFix": "overflow-x: hidden now on html and body in main.css (was only in shorts.css previously)",
+        "mobileFirst": true,
+        "viewportMeta": "all pages",
+        "noHardcodedWidths": true
+      },
+      "staticHosting": {
+        "status": "pass",
+        "noBackendAssumptions": true,
+        "noApiKeys": true,
+        "noBuildStepRequired": true,
+        "localPreview": "python3 -m http.server 8080",
+        "noteJsonFetch": "JSON feeds require HTTP server; file:// will fail due to CORS"
+      },
+      "dangerousStrings": {
+        "status": "pass",
+        "noYaViaje": true,
+        "noViajenyc": true,
+        "noExampleCom": true,
+        "noLocalhost": true,
+        "noTodo": true,
+        "noLoremIpsum": true,
+        "noUndefinedInUrls": true,
+        "noYourInsertFixme": true
+      }
+    },
+    "issuesFound": 3,
+    "issuesFixed": 3,
+    "issuesList": [
+      "hoteles/the-savoy-londres/index.html: href /ciudades/Londres/ had uppercase L — would 404 on case-sensitive Linux (GitHub Pages). Fixed to /ciudades/londres/",
+      "404.html: div inside <main> had redundant role='main'. Removed to fix accessibility landmark duplication.",
+      "assets/css/main.css + assets/css/shorts.css: overflow-x: hidden was only applied via shorts.css (loaded on 20/54 pages). Moved to main.css html+body to cover all pages; removed from shorts.css."
+    ],
+    "remainingNotes": [
+      "404.html has no footer by design — acceptable for error page",
+      "404.html has no canonical/OG tags by design — page has noindex",
+      "nav.js has no defer attribute — correct, as it loads at end of body on all pages",
+      "OG image is a single default SVG for all pages — no per-page images; acceptable for v1"
+    ]
+  },
+  "pageInventory": {
+    "hoteles": [
+      "the-plaza-nueva-york",
+      "raffles-singapur",
+      "copacabana-palace-rio",
+      "hotel-nacional-habana",
+      "ritz-paris",
+      "claridges-londres",
+      "burj-al-arab-dubai",
+      "the-savoy-londres",
+      "danieli-venecia",
+      "pera-palace-estambul",
+      "chateau-frontenac-quebec",
+      "alvear-palace-buenos-aires",
+      "four-seasons-george-v-paris",
+      "hotel-del-coronado-san-diego",
+      "beverly-hills-hotel",
+      "villa-deste-como",
+      "cipriani-venecia",
+      "the-dorchester-londres",
+      "park-hyatt-tokio",
+      "casa-gangotena-quito"
+    ],
+    "ciudades": [
+      "nueva-york",
+      "paris",
+      "londres",
+      "la-habana",
+      "buenos-aires",
+      "ciudad-de-mexico",
+      "venecia",
+      "dubai",
+      "tokio",
+      "roma"
+    ],
+    "colecciones": [
+      "hoteles-de-pelicula",
+      "palacios-convertidos-hotel",
+      "hoteles-mas-fotografiados",
+      "hoteles-con-historia",
+      "hoteles-arquitectura-diseno",
+      "hoteles-iconicos-america-latina",
+      "hoteles-frente-al-mar",
+      "hoteles-gran-lujo-clasico",
+      "hoteles-con-leyendas",
+      "hoteles-mas-antiguos"
+    ],
+    "guias": [
+      "que-hace-famoso-un-hotel",
+      "como-leer-un-hotel-de-lujo",
+      "glosario-hotelero",
+      "preguntas-frecuentes",
+      "bares-de-hotel-famosos",
+      "historia-hotel-lujo-moderno"
+    ]
+  },
+  "browserRepairPass": {
+    "timestamp": "2026-05-13",
+    "status": "complete",
+    "summary": "Browser-facing repair pass fixing layout, contrast, Shorts thumbnails, and structural issues identified in live preview.",
+    "filesModified": [
+      "assets/css/components.css",
+      "assets/css/pages.css",
+      "assets/js/shorts.js",
+      "hoteles/the-savoy-londres/index.html",
+      "ciudades/nueva-york/index.html",
+      "ciudades/paris/index.html",
+      "ciudades/buenos-aires/index.html",
+      "ciudades/dubai/index.html",
+      "ciudades/la-habana/index.html",
+      "ciudades/venecia/index.html",
+      "ciudades/londres/index.html"
+    ],
+    "fixesApplied": {
+      "heroImageDisplay": [
+        "components.css: Added isolation:isolate to .page-hero — creates proper stacking context so z-index ladder (img=0, scrim=1, content=2) works correctly across all browsers",
+        "pages.css: Added z-index:1 to .home-hero__bg::after — ensures gradient scrim is definitively above the background img on homepage"
+      ],
+      "layoutStructure": [
+        "pages.css: Added .hotel-profile-layout.container (adjacent class selector) — fixes two-column layout on legacy hotel profiles where both classes land on the same element (e.g. Savoy)",
+        "pages.css: Added .guide-layout.container (adjacent class selector) — same fix for guide pages",
+        "pages.css: Added .guide-main style block (alias for .guide__body) — guide pages use guide-main not guide__body; h2 now renders at correct editorial size",
+        "pages.css: Added .guide-sidebar alias (alias for .guide__sidebar) — sticky positioning now applies to guide sidebar"
+      ],
+      "missingCssClasses": [
+        "components.css: Added .sidebar-city-link — white card used in legacy hotel sidebars for city cross-link",
+        "components.css: Added .sidebar-promo — dark gradient promo box used in legacy hotel sidebars",
+        "components.css: Added .btn--light — light button variant for dark sidebar/promo backgrounds",
+        "components.css: Added .editorial-aside — inline cross-link paragraph used in guide articles",
+        "components.css: Added .fact-box__note — small italic note at bottom of sidebar fact boxes"
+      ],
+      "shortsThumbnailFallback": [
+        "shorts.js: On img error, first retries with hqdefault.jpg if current src differs from hqdefault — covers case where item.thumbnail (mqdefault or custom URL) fails",
+        "shorts.js: On second error (or if already hqdefault), removes img from DOM and adds shorts-thumb--error class — avoids broken image icon",
+        "components.css: Added .shorts-thumb--error::after and .shorts-thumb--empty::after with ▷ placeholder — visible fallback without broken img icon"
+      ],
+      "shortsSectionPlacement": [
+        "All 7 city pages: Moved <section class='shorts-section'> from inside <div class='container section'> to after its closing </div> — allows dark full-bleed background to span full viewport width"
+      ],
+      "savoyHtml": [
+        "the-savoy-londres/index.html: Moved h3 'Colecciones' out of .collection-tags div (was a flex item breaking layout)",
+        "the-savoy-londres/index.html: Added class='collection-tag' to all 4 collection links — now renders as pill tags"
+      ]
+    },
+    "validationResults": {
+      "noUndefinedInUrls": true,
+      "noRemoteImageHotlinks": true,
+      "shortsSectionOutsideContainerAllCities": true,
+      "collectionTagsFixed": true,
+      "missingCssClassesAdded": true
+    },
+    "remainingWarnings": [
+      "Some city pages (tokio, ciudad-de-mexico, roma) have no Shorts feed content yet — empty state shows 'Próximamente' message as intended",
+      "OG image is single default SVG for all pages — no per-page images; acceptable for current version"
+    ]
+  },
+  "visualPolishPass": {
+    "timestamp": "2026-05-13",
+    "status": "complete",
+    "summary": "Visual audit, CSS compatibility fixes, and first-wave stock image integration.",
+    "phasesCovered": [
+      "Phase 1: Visual audit",
+      "Phase 2: CSS polish",
+      "Phase 3: Image manifest created",
+      "Phase 4: Image slots planned",
+      "Phase 5: Sources proposed and approved",
+      "Phase 6: Image CSS already in components.css",
+      "Phase 7: Final report (see below)"
+    ],
+    "cssFixesApplied": [
+      "components.css: Added full legacy-template compatibility block (nav-container, nav-logo, nav-toggle, nav-menu, footer-grid, footer-brand, footer-tagline, footer-disclaimer, footer-copy, lead)",
+      "components.css: Added breadcrumb--light alias rule",
+      "components.css: Added art--guide-famoso and art--guide-bares hero gradient classes",
+      "components.css: Added .page-hero.section--dark:has(.page-hero__img)::before scrim rule",
+      "components.css: Increased footer contrast (disclaimer: 0.40→0.55 alpha; copyright: 0.30→0.50 alpha; legacy footer-copy: 0.35→0.50)",
+      "components.css: Increased collection card min-height from 240px to 280px",
+      "main.css: Added display:grid to .grid-2, .grid-3, .grid-4 (standalone, without parent .grid)",
+      "shorts.css: Added border-top: 2px solid rgba(201,151,58,0.25) to .shorts-section for visual separation",
+      "pages.css: Enhanced .home-hero__bg::after with dark gradient scrim layer for image readability",
+      "nav.js: Added querySelector fallback for legacy-template mobile menu toggle"
+    ],
+    "imageIntegration": {
+      "totalImages": 20,
+      "source": "Unsplash (all free tier, Unsplash License)",
+      "localPath": "assets/img/hero/",
+      "manifestPath": "data/image-manifest.json",
+      "pagesUpdated": 20,
+      "allLocalNoHotlinks": true,
+      "allPathsResolved": true,
+      "noMisleadingAltText": true,
+      "substitutionsMade": 3,
+      "substitutionReason": "3 originally selected images were Unsplash Plus (premium) — substituted with free equivalents of same subject",
+      "imagesByType": {
+        "homepageHero": 1,
+        "hotelProfileHeroes": 8,
+        "cityGuideHeroes": 7,
+        "collectionHeroes": 2,
+        "editorialGuideHeroes": 2
+      },
+      "depictsExactSubject": {
+        "true": 7,
+        "false": 13,
+        "note": "exact_subject=true for city pages (cityscape of named city); false for all hotel profiles and editorial pages"
+      }
+    },
+    "warningsAndCautions": [
+      "hotel-burj-hero: Dubai coastline aerial — Burj Al Arab building NOT mentioned in alt text (per user instruction)",
+      "All 8 hotel profile images are generic editorial images, not photos of the named hotel",
+      "guide page heroes required adding art--guide-famoso / art--guide-bares classes to trigger ::before scrim overlay",
+      "Legacy template (38 pages) nav/footer was completely unstyled before this pass — now covered by CSS compatibility block",
+      "CSS :has() used in .page-hero.section--dark:has(.page-hero__img)::before — supported in all modern browsers since 2023"
+    ]
+  },
+  "shortsUpgradePass": {
+    "timestamp": "2026-05-13T00:00:00Z",
+    "status": "complete",
+    "filesChanged": [
+      "assets/css/shorts.css",
+      "assets/js/shorts.js",
+      "data/shorts/shorts-validation-report.json"
+    ],
+    "layoutChanges": {
+      "fullWidthRail": true,
+      "arrowScrollControls": true,
+      "rightEdgeFadeGradient": true,
+      "cardSizeUpgrade": {
+        "mobile": "82vw (was 72vw)",
+        "tablet": "360px (was 240px)",
+        "desktop": "400px (was 260px)"
+      },
+      "thumbnailAspectRatio": "16:9 with object-fit cover",
+      "scrollSnap": true,
+      "nativeScrollSupported": true
+    },
+    "videoClassification": {
+      "classificationRule": "duration_seconds > 0 AND duration_seconds <= 90 → Shorts; > 90 → full video; missing/zero → excluded",
+      "totalFeedsChecked": 20,
+      "totalItemsChecked": 600,
+      "totalShortItems": 332,
+      "totalFullVideoItems": 199,
+      "totalExcludedUncertain": 69,
+      "totalExcludedInvalid": 0,
+      "feedsWithZeroShorts": [],
+      "allFeedsHaveFullVideos": true,
+      "shortsSectionRendersUpTo": 8,
+      "fullVideosSectionRendersUpTo": 6
+    },
+    "fullVideosSectionAdded": {
+      "method": "dynamically injected by JS after .shorts-section",
+      "pagesAffected": "all 20 pages with video feeds (all have full videos)",
+      "headingsByType": {
+        "hotel": "Videos completos sobre este hotel y su contexto",
+        "city": "Videos completos sobre hoteles y viajes en esta ciudad",
+        "home_hub": "Videos completos para profundizar"
+      },
+      "cssClass": ".full-videos-section",
+      "background": "var(--color-navy) — visually quieter than .shorts-section"
+    },
+    "validationReportPath": "/data/shorts/shorts-validation-report.json",
+    "qaChecks": {
+      "embedUndefined": "PASS — none found",
+      "shortsUndefined": "PASS — none found",
+      "watchVUndefined": "PASS — none found",
+      "hrefUndefined": "PASS — none found",
+      "srcUndefined": "PASS — none found",
+      "shortsLabelOnLongVideos": "PASS — shorts-label class only in buildCard(), not buildFullVideoCard()",
+      "noFullPageHorizontalOverflow": "PASS — overflow hidden on wrappers, auto only on inner rails"
+    },
+    "remainingWarnings": [
+      "69 items excluded from display due to missing/zero duration_seconds — originals preserved in raw feed files"
+    ]
+  }
+}
