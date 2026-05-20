@@ -1,0 +1,188 @@
+{
+  "site": "hotelesfamosos.com",
+  "language": "es",
+  "description": "Registro de feeds estáticos de YouTube Shorts para módulos editoriales de Hoteles Famosos.",
+  "generated_at": "2026-05-13T11:32:42.893637",
+  "feeds": [
+    {
+      "topic": "hoteles-famosos-home",
+      "title": "Hoteles famosos del mundo",
+      "json_path": "/data/shorts/hoteles-famosos-home.json",
+      "target_pages": [
+        "/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "hoteles-famosos-hub",
+      "title": "Guía de hoteles famosos",
+      "json_path": "/data/shorts/hoteles-famosos-hub.json",
+      "target_pages": [
+        "/hoteles/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "hotel-plaza-nueva-york",
+      "title": "The Plaza Hotel Nueva York",
+      "json_path": "/data/shorts/hotel-plaza-nueva-york.json",
+      "target_pages": [
+        "/hoteles/the-plaza-nueva-york/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "ritz-paris",
+      "title": "Ritz Paris",
+      "json_path": "/data/shorts/ritz-paris.json",
+      "target_pages": [
+        "/hoteles/ritz-paris/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "burj-al-arab-dubai",
+      "title": "Burj Al Arab Dubai",
+      "json_path": "/data/shorts/burj-al-arab-dubai.json",
+      "target_pages": [
+        "/hoteles/burj-al-arab-dubai/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "raffles-singapur",
+      "title": "Raffles Singapore",
+      "json_path": "/data/shorts/raffles-singapur.json",
+      "target_pages": [
+        "/hoteles/raffles-singapur/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "copacabana-palace-rio",
+      "title": "Copacabana Palace Rio",
+      "json_path": "/data/shorts/copacabana-palace-rio.json",
+      "target_pages": [
+        "/hoteles/copacabana-palace-rio/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "hotel-nacional-habana",
+      "title": "Hotel Nacional de Cuba La Habana",
+      "json_path": "/data/shorts/hotel-nacional-habana.json",
+      "target_pages": [
+        "/hoteles/hotel-nacional-habana/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "the-savoy-londres",
+      "title": "The Savoy Londres",
+      "json_path": "/data/shorts/the-savoy-londres.json",
+      "target_pages": [
+        "/hoteles/the-savoy-londres/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "danieli-venecia",
+      "title": "Hotel Danieli Venecia",
+      "json_path": "/data/shorts/danieli-venecia.json",
+      "target_pages": [
+        "/hoteles/danieli-venecia/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "hotel-del-coronado-san-diego",
+      "title": "Hotel del Coronado San Diego",
+      "json_path": "/data/shorts/hotel-del-coronado-san-diego.json",
+      "target_pages": [
+        "/hoteles/hotel-del-coronado-san-diego/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "beverly-hills-hotel",
+      "title": "Beverly Hills Hotel",
+      "json_path": "/data/shorts/beverly-hills-hotel.json",
+      "target_pages": [
+        "/hoteles/beverly-hills-hotel/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "park-hyatt-tokio",
+      "title": "Park Hyatt Tokyo",
+      "json_path": "/data/shorts/park-hyatt-tokio.json",
+      "target_pages": [
+        "/hoteles/park-hyatt-tokio/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "ciudad-nueva-york-hoteles",
+      "title": "Hoteles famosos en Nueva York",
+      "json_path": "/data/shorts/ciudad-nueva-york-hoteles.json",
+      "target_pages": [
+        "/ciudades/nueva-york/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "ciudad-paris-hoteles",
+      "title": "Hoteles famosos en París",
+      "json_path": "/data/shorts/ciudad-paris-hoteles.json",
+      "target_pages": [
+        "/ciudades/paris/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "ciudad-londres-hoteles",
+      "title": "Hoteles famosos en Londres",
+      "json_path": "/data/shorts/ciudad-londres-hoteles.json",
+      "target_pages": [
+        "/ciudades/londres/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "ciudad-dubai-hoteles",
+      "title": "Hoteles famosos en Dubái",
+      "json_path": "/data/shorts/ciudad-dubai-hoteles.json",
+      "target_pages": [
+        "/ciudades/dubai/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "ciudad-venecia-hoteles",
+      "title": "Hoteles famosos en Venecia",
+      "json_path": "/data/shorts/ciudad-venecia-hoteles.json",
+      "target_pages": [
+        "/ciudades/venecia/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "ciudad-buenos-aires-hoteles",
+      "title": "Hoteles famosos en Buenos Aires",
+      "json_path": "/data/shorts/ciudad-buenos-aires-hoteles.json",
+      "target_pages": [
+        "/ciudades/buenos-aires/"
+      ],
+      "status": "generated"
+    },
+    {
+      "topic": "ciudad-la-habana-hoteles",
+      "title": "Hoteles famosos en La Habana",
+      "json_path": "/data/shorts/ciudad-la-habana-hoteles.json",
+      "target_pages": [
+        "/ciudades/la-habana/"
+      ],
+      "status": "generated"
+    }
+  ]
+}

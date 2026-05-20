@@ -1,0 +1,235 @@
+{
+  "timestamp": "2026-05-13T00:00:00Z",
+  "total_feed_files_checked": 20,
+  "total_items_checked": 600,
+  "total_short_items": 332,
+  "total_full_video_items": 199,
+  "total_excluded_uncertain_items": 69,
+  "total_excluded_invalid_items": 0,
+  "feeds_with_zero_shorts": [],
+  "feeds_with_fewer_than_4_shorts": [],
+  "feeds_with_full_videos": [
+    "beverly-hills-hotel.json",
+    "burj-al-arab-dubai.json",
+    "ciudad-buenos-aires-hoteles.json",
+    "ciudad-dubai-hoteles.json",
+    "ciudad-la-habana-hoteles.json",
+    "ciudad-londres-hoteles.json",
+    "ciudad-nueva-york-hoteles.json",
+    "ciudad-paris-hoteles.json",
+    "ciudad-venecia-hoteles.json",
+    "copacabana-palace-rio.json",
+    "danieli-venecia.json",
+    "hotel-del-coronado-san-diego.json",
+    "hotel-nacional-habana.json",
+    "hotel-plaza-nueva-york.json",
+    "hoteles-famosos-home.json",
+    "hoteles-famosos-hub.json",
+    "park-hyatt-tokio.json",
+    "raffles-singapur.json",
+    "ritz-paris.json",
+    "the-savoy-londres.json"
+  ],
+  "per_feed": [
+    {
+      "feed_file": "beverly-hills-hotel.json",
+      "total_items": 30,
+      "shorts_count": 12,
+      "full_videos_count": 17,
+      "excluded_uncertain_count": 1,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 6,
+      "longest_duration": 300
+    },
+    {
+      "feed_file": "burj-al-arab-dubai.json",
+      "total_items": 30,
+      "shorts_count": 14,
+      "full_videos_count": 11,
+      "excluded_uncertain_count": 5,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 23,
+      "longest_duration": 237
+    },
+    {
+      "feed_file": "ciudad-buenos-aires-hoteles.json",
+      "total_items": 30,
+      "shorts_count": 16,
+      "full_videos_count": 14,
+      "excluded_uncertain_count": 0,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 16,
+      "longest_duration": 269
+    },
+    {
+      "feed_file": "ciudad-dubai-hoteles.json",
+      "total_items": 30,
+      "shorts_count": 15,
+      "full_videos_count": 5,
+      "excluded_uncertain_count": 10,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 8,
+      "longest_duration": 224
+    },
+    {
+      "feed_file": "ciudad-la-habana-hoteles.json",
+      "total_items": 30,
+      "shorts_count": 18,
+      "full_videos_count": 11,
+      "excluded_uncertain_count": 1,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 17,
+      "longest_duration": 203
+    },
+    {
+      "feed_file": "ciudad-londres-hoteles.json",
+      "total_items": 30,
+      "shorts_count": 9,
+      "full_videos_count": 14,
+      "excluded_uncertain_count": 7,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 21,
+      "longest_duration": 299
+    },
+    {
+      "feed_file": "ciudad-nueva-york-hoteles.json",
+      "total_items": 30,
+      "shorts_count": 9,
+      "full_videos_count": 14,
+      "excluded_uncertain_count": 7,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 32,
+      "longest_duration": 282
+    },
+    {
+      "feed_file": "ciudad-paris-hoteles.json",
+      "total_items": 30,
+      "shorts_count": 9,
+      "full_videos_count": 11,
+      "excluded_uncertain_count": 10,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 21,
+      "longest_duration": 289
+    },
+    {
+      "feed_file": "ciudad-venecia-hoteles.json",
+      "total_items": 30,
+      "shorts_count": 17,
+      "full_videos_count": 8,
+      "excluded_uncertain_count": 5,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 17,
+      "longest_duration": 244
+    },
+    {
+      "feed_file": "copacabana-palace-rio.json",
+      "total_items": 30,
+      "shorts_count": 14,
+      "full_videos_count": 11,
+      "excluded_uncertain_count": 5,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 20,
+      "longest_duration": 241
+    },
+    {
+      "feed_file": "danieli-venecia.json",
+      "total_items": 30,
+      "shorts_count": 24,
+      "full_videos_count": 6,
+      "excluded_uncertain_count": 0,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 15,
+      "longest_duration": 236
+    },
+    {
+      "feed_file": "hotel-del-coronado-san-diego.json",
+      "total_items": 30,
+      "shorts_count": 14,
+      "full_videos_count": 16,
+      "excluded_uncertain_count": 0,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 23,
+      "longest_duration": 279
+    },
+    {
+      "feed_file": "hotel-nacional-habana.json",
+      "total_items": 30,
+      "shorts_count": 24,
+      "full_videos_count": 6,
+      "excluded_uncertain_count": 0,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 16,
+      "longest_duration": 198
+    },
+    {
+      "feed_file": "hotel-plaza-nueva-york.json",
+      "total_items": 30,
+      "shorts_count": 25,
+      "full_videos_count": 5,
+      "excluded_uncertain_count": 0,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 19,
+      "longest_duration": 160
+    },
+    {
+      "feed_file": "hoteles-famosos-home.json",
+      "total_items": 30,
+      "shorts_count": 14,
+      "full_videos_count": 11,
+      "excluded_uncertain_count": 5,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 39,
+      "longest_duration": 272
+    },
+    {
+      "feed_file": "hoteles-famosos-hub.json",
+      "total_items": 30,
+      "shorts_count": 17,
+      "full_videos_count": 8,
+      "excluded_uncertain_count": 5,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 13,
+      "longest_duration": 250
+    },
+    {
+      "feed_file": "park-hyatt-tokio.json",
+      "total_items": 30,
+      "shorts_count": 15,
+      "full_videos_count": 10,
+      "excluded_uncertain_count": 5,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 11,
+      "longest_duration": 287
+    },
+    {
+      "feed_file": "raffles-singapur.json",
+      "total_items": 30,
+      "shorts_count": 21,
+      "full_videos_count": 8,
+      "excluded_uncertain_count": 1,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 8,
+      "longest_duration": 281
+    },
+    {
+      "feed_file": "ritz-paris.json",
+      "total_items": 30,
+      "shorts_count": 26,
+      "full_videos_count": 3,
+      "excluded_uncertain_count": 1,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 14,
+      "longest_duration": 140
+    },
+    {
+      "feed_file": "the-savoy-londres.json",
+      "total_items": 30,
+      "shorts_count": 19,
+      "full_videos_count": 10,
+      "excluded_uncertain_count": 1,
+      "excluded_invalid_count": 0,
+      "shortest_duration": 8,
+      "longest_duration": 168
+    }
+  ]
+}

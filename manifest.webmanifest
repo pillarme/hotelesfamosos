@@ -1,0 +1,20 @@
+{
+  "name": "Hoteles Famosos",
+  "short_name": "Hoteles Famosos",
+  "description": "La Bitácora de los Grandes Hoteles — Guía editorial en español de los hoteles más famosos del mundo.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F4EE",
+  "theme_color": "#1B2A4A",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/assets/img/favicons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["travel", "lifestyle"],
+  "orientation": "any"
+}

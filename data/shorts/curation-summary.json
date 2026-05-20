@@ -1,0 +1,211 @@
+{
+  "site": "hotelesfamosos.com",
+  "timestamp": "2026-05-13T11:26:07.979117",
+  "topics_processed": [
+    {
+      "topic": "hoteles-famosos-home",
+      "title": "Hoteles famosos del mundo",
+      "target_pages": [
+        "/"
+      ],
+      "items_found": 400,
+      "items_filtered": 116,
+      "items_written": 30
+    },
+    {
+      "topic": "hoteles-famosos-hub",
+      "title": "Guía de hoteles famosos",
+      "target_pages": [
+        "/hoteles/"
+      ],
+      "items_found": 400,
+      "items_filtered": 89,
+      "items_written": 30
+    },
+    {
+      "topic": "hotel-plaza-nueva-york",
+      "title": "The Plaza Hotel Nueva York",
+      "target_pages": [
+        "/hoteles/the-plaza-nueva-york/"
+      ],
+      "items_found": 400,
+      "items_filtered": 164,
+      "items_written": 30
+    },
+    {
+      "topic": "ritz-paris",
+      "title": "Ritz Paris",
+      "target_pages": [
+        "/hoteles/ritz-paris/"
+      ],
+      "items_found": 400,
+      "items_filtered": 172,
+      "items_written": 30
+    },
+    {
+      "topic": "burj-al-arab-dubai",
+      "title": "Burj Al Arab Dubai",
+      "target_pages": [
+        "/hoteles/burj-al-arab-dubai/"
+      ],
+      "items_found": 400,
+      "items_filtered": 194,
+      "items_written": 30
+    },
+    {
+      "topic": "raffles-singapur",
+      "title": "Raffles Singapore",
+      "target_pages": [
+        "/hoteles/raffles-singapur/"
+      ],
+      "items_found": 400,
+      "items_filtered": 197,
+      "items_written": 30
+    },
+    {
+      "topic": "copacabana-palace-rio",
+      "title": "Copacabana Palace Rio",
+      "target_pages": [
+        "/hoteles/copacabana-palace-rio/"
+      ],
+      "items_found": 400,
+      "items_filtered": 181,
+      "items_written": 30
+    },
+    {
+      "topic": "hotel-nacional-habana",
+      "title": "Hotel Nacional de Cuba La Habana",
+      "target_pages": [
+        "/hoteles/hotel-nacional-habana/"
+      ],
+      "items_found": 400,
+      "items_filtered": 206,
+      "items_written": 30
+    },
+    {
+      "topic": "the-savoy-londres",
+      "title": "The Savoy Londres",
+      "target_pages": [
+        "/hoteles/the-savoy-londres/"
+      ],
+      "items_found": 400,
+      "items_filtered": 175,
+      "items_written": 30
+    },
+    {
+      "topic": "danieli-venecia",
+      "title": "Hotel Danieli Venecia",
+      "target_pages": [
+        "/hoteles/danieli-venecia/"
+      ],
+      "items_found": 400,
+      "items_filtered": 158,
+      "items_written": 30
+    },
+    {
+      "topic": "hotel-del-coronado-san-diego",
+      "title": "Hotel del Coronado San Diego",
+      "target_pages": [
+        "/hoteles/hotel-del-coronado-san-diego/"
+      ],
+      "items_found": 400,
+      "items_filtered": 182,
+      "items_written": 30
+    },
+    {
+      "topic": "beverly-hills-hotel",
+      "title": "Beverly Hills Hotel",
+      "target_pages": [
+        "/hoteles/beverly-hills-hotel/"
+      ],
+      "items_found": 400,
+      "items_filtered": 211,
+      "items_written": 30
+    },
+    {
+      "topic": "park-hyatt-tokio",
+      "title": "Park Hyatt Tokyo",
+      "target_pages": [
+        "/hoteles/park-hyatt-tokio/"
+      ],
+      "items_found": 400,
+      "items_filtered": 193,
+      "items_written": 30
+    },
+    {
+      "topic": "ciudad-nueva-york-hoteles",
+      "title": "Hoteles famosos en Nueva York",
+      "target_pages": [
+        "/ciudades/nueva-york/"
+      ],
+      "items_found": 400,
+      "items_filtered": 196,
+      "items_written": 30
+    },
+    {
+      "topic": "ciudad-paris-hoteles",
+      "title": "Hoteles famosos en París",
+      "target_pages": [
+        "/ciudades/paris/"
+      ],
+      "items_found": 400,
+      "items_filtered": 161,
+      "items_written": 30
+    },
+    {
+      "topic": "ciudad-londres-hoteles",
+      "title": "Hoteles famosos en Londres",
+      "target_pages": [
+        "/ciudades/londres/"
+      ],
+      "items_found": 400,
+      "items_filtered": 200,
+      "items_written": 30
+    },
+    {
+      "topic": "ciudad-dubai-hoteles",
+      "title": "Hoteles famosos en Dubái",
+      "target_pages": [
+        "/ciudades/dubai/"
+      ],
+      "items_found": 400,
+      "items_filtered": 187,
+      "items_written": 30
+    },
+    {
+      "topic": "ciudad-venecia-hoteles",
+      "title": "Hoteles famosos en Venecia",
+      "target_pages": [
+        "/ciudades/venecia/"
+      ],
+      "items_found": 400,
+      "items_filtered": 205,
+      "items_written": 30
+    },
+    {
+      "topic": "ciudad-buenos-aires-hoteles",
+      "title": "Hoteles famosos en Buenos Aires",
+      "target_pages": [
+        "/ciudades/buenos-aires/"
+      ],
+      "items_found": 400,
+      "items_filtered": 249,
+      "items_written": 30
+    },
+    {
+      "topic": "ciudad-la-habana-hoteles",
+      "title": "Hoteles famosos en La Habana",
+      "target_pages": [
+        "/ciudades/la-habana/"
+      ],
+      "items_found": 400,
+      "items_filtered": 215,
+      "items_written": 30
+    }
+  ],
+  "candidates_found": 3651,
+  "items_written": 600,
+  "failed_queries": [],
+  "total_searches": 100,
+  "output_dir": "data/shorts"
+}

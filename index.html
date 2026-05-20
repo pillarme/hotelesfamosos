@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoteles Famosos — La Bitácora de los Grandes Hoteles del Mundo</title>
+  <meta name="description" content="Guía editorial en español de los hoteles más famosos, históricos, cinematográficos e icónicos del mundo. Una bitácora cultural para viajeros curiosos de América Latina.">
+  <link rel="canonical" href="https://hotelesfamosos.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hoteles Famosos — La Bitácora de los Grandes Hoteles">
+  <meta property="og:description" content="Guía editorial en español de los hoteles más icónicos del mundo. Para viajeros curiosos, amantes del cine, la arquitectura y la cultura de viaje.">
+  <meta property="og:url" content="https://hotelesfamosos.com/">
+  <meta property="og:image" content="https://hotelesfamosos.com/assets/img/og/default.svg">
+  <meta property="og:locale" content="es_419">
+  <meta property="og:site_name" content="Hoteles Famosos">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hoteles Famosos — La Bitácora de los Grandes Hoteles">
+  <meta name="twitter:description" content="Guía editorial en español de los hoteles más icónicos del mundo.">
+  <meta name="twitter:image" content="https://hotelesfamosos.com/assets/img/og/default.svg">
+
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicons/favicon.svg">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#1B2A4A">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/pages.css">
+  <link rel="stylesheet" href="/assets/css/shorts.css?v=shorts1">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://hotelesfamosos.com/#website",
+        "url": "https://hotelesfamosos.com/",
+        "name": "Hoteles Famosos",
+        "description": "La Bitácora de los Grandes Hoteles del Mundo — Guía editorial en español",
+        "inLanguage": "es",
+        "publisher": { "@id": "https://hotelesfamosos.com/#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://hotelesfamosos.com/#organization",
+        "name": "Hoteles Famosos",
+        "url": "https://hotelesfamosos.com/",
+        "description": "Guía editorial e inspiracional de hoteles icónicos del mundo, en español.",
+        "inLanguage": "es"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ── Navigation ─────────────────────────────────────────── -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="/" class="nav__logo" aria-label="Hoteles Famosos — Inicio">
+          <span class="nav__logo-text">Hoteles Famosos</span>
+          <span class="nav__logo-sub">La Bitácora</span>
+        </a>
+        <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú de navegación">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__menu" id="nav-menu" role="list">
+          <li><a href="/hoteles/" class="nav__link">Hoteles</a></li>
+          <li><a href="/ciudades/" class="nav__link">Por Ciudad</a></li>
+          <li><a href="/colecciones/" class="nav__link">Colecciones</a></li>
+          <li><a href="/guias/" class="nav__link">Guías</a></li>
+          <li><a href="/acerca-de/" class="nav__link">Acerca de</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── Hero ───────────────────────────────────────────────── -->
+    <section class="home-hero" aria-label="Presentación">
+      <div class="home-hero__bg" aria-hidden="true">
+        <img src="/assets/img/hero/home-hero.jpg" alt="" class="page-hero__img" width="1600" height="900" loading="eager" fetchpriority="high">
+      </div>
+      <div class="home-hero__content">
+        <div class="container">
+          <p class="home-hero__label">La Bitácora · Guía Editorial</p>
+          <h1 class="home-hero__title">Los hoteles que el<br><em>mundo no olvida</em></h1>
+          <p class="home-hero__subtitle">Una bitácora cultural de los hoteles más icónicos, cinematográficos e históricos del planeta, escrita en español para viajeros curiosos.</p>
+          <div class="home-hero__actions">
+            <a href="/colecciones/" class="btn btn--primary btn--lg">Explorar colecciones</a>
+            <a href="/hoteles/" class="btn btn--outline btn--lg">Ver todos los hoteles</a>
+          </div>
+        </div>
+      </div>
+      <div class="home-hero__scroll" aria-hidden="true">Explorar</div>
+    </section>
+
+    <!-- ── Explore Strip ──────────────────────────────────────── -->
+    <div class="home-explore" aria-label="Explorar por categoría">
+      <div class="container">
+        <div class="home-explore__inner">
+          <span class="home-explore__label">Explorar por:</span>
+          <div class="hub-chips">
+            <a href="/colecciones/hoteles-de-pelicula/" class="hub-chip">🎬 Película</a>
+            <a href="/colecciones/palacios-convertidos-hotel/" class="hub-chip">🏛 Palacios</a>
+            <a href="/colecciones/hoteles-iconicos-america-latina/" class="hub-chip">🌎 América Latina</a>
+            <a href="/colecciones/hoteles-arquitectura-diseno/" class="hub-chip">🏗 Arquitectura</a>
+            <a href="/colecciones/hoteles-con-historia/" class="hub-chip">📜 Historia</a>
+            <a href="/colecciones/hoteles-frente-al-mar/" class="hub-chip">🌊 Frente al mar</a>
+            <a href="/colecciones/hoteles-con-leyendas/" class="hub-chip">🌙 Leyendas</a>
+            <a href="/guias/que-hace-famoso-un-hotel/" class="hub-chip">✦ ¿Qué los hace famosos?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Featured Collections ───────────────────────────────── -->
+    <section class="section home-collections" aria-labelledby="collections-heading">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-heading__eyebrow">Colecciones editoriales</span>
+          <h2 class="section-heading__title" id="collections-heading">Hoteles que tienen algo que contar</h2>
+          <p class="section-heading__body">Cada colección reúne hoteles bajo un ángulo editorial distinto: lo que los une no es la cadena ni el precio, sino la historia.</p>
+        </div>
+        <div class="grid grid-2" style="gap: var(--space-5);">
+
+          <a href="/colecciones/hoteles-de-pelicula/" class="collection-card" aria-label="Hoteles de película — ver colección">
+            <div class="collection-card__art art--col-pelicula">
+              <div class="collection-card__art-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="collection-card__body">
+              <p class="collection-card__label">Colección</p>
+              <h3 class="collection-card__title">Hoteles que el cine eligió primero</h3>
+              <p class="collection-card__count">10 hoteles · Guía editorial</p>
+            </div>
+          </a>
+
+          <a href="/colecciones/palacios-convertidos-hotel/" class="collection-card" aria-label="Palacios convertidos en hotel — ver colección">
+            <div class="collection-card__art art--col-palacios">
+              <div class="collection-card__art-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="collection-card__body">
+              <p class="collection-card__label">Colección</p>
+              <h3 class="collection-card__title">Cuando un palacio se convierte en tu habitación</h3>
+              <p class="collection-card__count">7 hoteles · Guía editorial</p>
+            </div>
+          </a>
+
+          <a href="/colecciones/hoteles-iconicos-america-latina/" class="collection-card" aria-label="Íconos de América Latina — ver colección">
+            <div class="collection-card__art art--col-latam">
+              <div class="collection-card__art-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="collection-card__body">
+              <p class="collection-card__label">Colección</p>
+              <h3 class="collection-card__title">Los grandes hoteles de América Latina</h3>
+              <p class="collection-card__count">6 hoteles · Guía editorial</p>
+            </div>
+          </a>
+
+          <a href="/colecciones/hoteles-gran-lujo-clasico/" class="collection-card" aria-label="Gran lujo clásico — ver colección">
+            <div class="collection-card__art art--col-clasico">
+              <div class="collection-card__art-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="collection-card__body">
+              <p class="collection-card__label">Colección</p>
+              <h3 class="collection-card__title">El lujo que no pasa de moda</h3>
+              <p class="collection-card__count">8 hoteles · Guía editorial</p>
+            </div>
+          </a>
+
+        </div>
+        <div class="u-text-center" style="margin-top: var(--space-8);">
+          <a href="/colecciones/" class="btn btn--outline-dark">Ver todas las colecciones</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Hotels Spotlight ────────────────────────────────────── -->
+    <section class="section home-spotlight section--white" aria-labelledby="spotlight-heading">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-heading__eyebrow">Perfiles de hotel</span>
+          <h2 class="section-heading__title" id="spotlight-heading">Hoteles que merecen una historia propia</h2>
+          <p class="section-heading__body">Cada perfil explora la fama, el carácter y el contexto cultural de un hotel concreto.</p>
+        </div>
+        <div class="grid grid-3">
+
+          <div class="hotel-card" style="position:relative;">
+            <a href="/hoteles/the-plaza-nueva-york/" class="hotel-card__link-overlay" aria-label="The Plaza, Nueva York"></a>
+            <div class="hotel-card__art art--plaza">
+              <div class="hotel-card__art-pattern" aria-hidden="true"></div>
+              <span class="hotel-card__monogram" aria-hidden="true">P</span>
+            </div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Nueva York · EE. UU.</p>
+              <h3 class="hotel-card__title">The Plaza</h3>
+              <p class="hotel-card__excerpt">El hotel más reconocible de la Quinta Avenida, con su fachada Beaux-Arts frente a Central Park y más de un siglo de historia en el imaginario neoyorquino.</p>
+              <span class="hotel-card__link" aria-hidden="true">Leer perfil</span>
+            </div>
+          </div>
+
+          <div class="hotel-card" style="position:relative;">
+            <a href="/hoteles/ritz-paris/" class="hotel-card__link-overlay" aria-label="The Ritz, París"></a>
+            <div class="hotel-card__art art--ritz">
+              <div class="hotel-card__art-pattern" aria-hidden="true"></div>
+              <span class="hotel-card__monogram" aria-hidden="true">R</span>
+            </div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">París · Francia</p>
+              <h3 class="hotel-card__title">The Ritz Paris</h3>
+              <p class="hotel-card__excerpt">En la Place Vendôme desde 1898. El nombre que le dio significado a la palabra «ritz» y que convirtió el lujo hotelero en un ideal cultural del siglo XX.</p>
+              <span class="hotel-card__link" aria-hidden="true">Leer perfil</span>
+            </div>
+          </div>
+
+          <div class="hotel-card" style="position:relative;">
+            <a href="/hoteles/copacabana-palace-rio/" class="hotel-card__link-overlay" aria-label="Copacabana Palace, Río de Janeiro"></a>
+            <div class="hotel-card__art art--copacabana">
+              <div class="hotel-card__art-pattern" aria-hidden="true"></div>
+              <span class="hotel-card__monogram" aria-hidden="true">C</span>
+            </div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Río de Janeiro · Brasil</p>
+              <h3 class="hotel-card__title">Copacabana Palace</h3>
+              <p class="hotel-card__excerpt">La fachada blanca que define el perfil de Copacabana desde 1923. Un símbolo del glamour carioca que mezcla Art Déco con el ritmo del Atlántico.</p>
+              <span class="hotel-card__link" aria-hidden="true">Leer perfil</span>
+            </div>
+          </div>
+
+          <div class="hotel-card" style="position:relative;">
+            <a href="/hoteles/burj-al-arab-dubai/" class="hotel-card__link-overlay" aria-label="Burj Al Arab, Dubái"></a>
+            <div class="hotel-card__art art--burj">
+              <div class="hotel-card__art-pattern" aria-hidden="true"></div>
+              <span class="hotel-card__monogram" aria-hidden="true">B</span>
+            </div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Dubái · EAU</p>
+              <h3 class="hotel-card__title">Burj Al Arab</h3>
+              <p class="hotel-card__excerpt">La vela de acero y vidrio que cambió el horizonte de Dubái. Un edificio que no es solo un hotel sino el símbolo visual de una ciudad entera.</p>
+              <span class="hotel-card__link" aria-hidden="true">Leer perfil</span>
+            </div>
+          </div>
+
+          <div class="hotel-card" style="position:relative;">
+            <a href="/hoteles/alvear-palace-buenos-aires/" class="hotel-card__link-overlay" aria-label="Alvear Palace Hotel, Buenos Aires"></a>
+            <div class="hotel-card__art art--alvear">
+              <div class="hotel-card__art-pattern" aria-hidden="true"></div>
+              <span class="hotel-card__monogram" aria-hidden="true">A</span>
+            </div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Buenos Aires · Argentina</p>
+              <h3 class="hotel-card__title">Alvear Palace Hotel</h3>
+              <p class="hotel-card__excerpt">El gran palacio de Recoleta desde 1932. La referencia máxima del lujo clásico porteño, con una elegancia que le debe más a París que al Río de la Plata.</p>
+              <span class="hotel-card__link" aria-hidden="true">Leer perfil</span>
+            </div>
+          </div>
+
+          <div class="hotel-card" style="position:relative;">
+            <a href="/hoteles/pera-palace-estambul/" class="hotel-card__link-overlay" aria-label="Pera Palace Hotel, Estambul"></a>
+            <div class="hotel-card__art art--pera">
+              <div class="hotel-card__art-pattern" aria-hidden="true"></div>
+              <span class="hotel-card__monogram" aria-hidden="true">P</span>
+            </div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Estambul · Türkiye</p>
+              <h3 class="hotel-card__title">Pera Palace Hotel</h3>
+              <p class="hotel-card__excerpt">El destino final del Orient Express desde 1895. Un hotel construido para recibir a los viajeros del tren más romántico de la historia y nunca ha perdido ese aire.</p>
+              <span class="hotel-card__link" aria-hidden="true">Leer perfil</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="u-text-center" style="margin-top: var(--space-8);">
+          <a href="/hoteles/" class="btn btn--outline-dark">Ver los 20 perfiles</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Cities ─────────────────────────────────────────────── -->
+    <section class="section home-cities section--dark" aria-labelledby="cities-heading">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-heading__eyebrow">Por ciudad</span>
+          <h2 class="section-heading__title" id="cities-heading">Guías de ciudad hotelera</h2>
+          <p class="section-heading__body">Qué hace a la escena hotelera de cada ciudad única, y cuáles son sus hoteles más famosos.</p>
+        </div>
+        <div class="grid grid-4" style="gap: var(--space-4);">
+
+          <a href="/ciudades/nueva-york/" class="city-card" aria-label="Hoteles famosos de Nueva York">
+            <div class="city-card__art art--city-ny">
+              <div class="city-card__art-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="city-card__body">
+              <h3 class="city-card__title">Nueva York</h3>
+              <p class="city-card__sub">EE. UU.</p>
+            </div>
+          </a>
+
+          <a href="/ciudades/paris/" class="city-card" aria-label="Hoteles famosos de París">
+            <div class="city-card__art art--city-paris">
+              <div class="city-card__art-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="city-card__body">
+              <h3 class="city-card__title">París</h3>
+              <p class="city-card__sub">Francia</p>
+            </div>
+          </a>
+
+          <a href="/ciudades/londres/" class="city-card" aria-label="Hoteles famosos de Londres">
+            <div class="city-card__art art--city-london">
+              <div class="city-card__art-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="city-card__body">
+              <h3 class="city-card__title">Londres</h3>
+              <p class="city-card__sub">Reino Unido</p>
+            </div>
+          </a>
+
+          <a href="/ciudades/la-habana/" class="city-card" aria-label="Hoteles famosos de La Habana">
+            <div class="city-card__art art--city-habana">
+              <div class="city-card__art-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="city-card__body">
+              <h3 class="city-card__title">La Habana</h3>
+              <p class="city-card__sub">Cuba</p>
+            </div>
+          </a>
+
+          <a href="/ciudades/buenos-aires/" class="city-card" aria-label="Hoteles famosos de Buenos Aires">
+            <div class="city-card__art art--city-ba">
+              <div class="city-card__art-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="city-card__body">
+              <h3 class="city-card__title">Buenos Aires</h3>
+              <p class="city-card__sub">Argentina</p>
+            </div>
+          </a>
+
+          <a href="/ciudades/ciudad-de-mexico/" class="city-card" aria-label="Hoteles famosos de Ciudad de México">
+            <div class="city-card__art art--city-cdmx">
+              <div class="city-card__art-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="city-card__body">
+              <h3 class="city-card__title">Ciudad de México</h3>
+              <p class="city-card__sub">México</p>
+            </div>
+          </a>
+
+          <a href="/ciudades/venecia/" class="city-card" aria-label="Hoteles famosos de Venecia">
+            <div class="city-card__art art--city-venice">
+              <div class="city-card__art-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="city-card__body">
+              <h3 class="city-card__title">Venecia</h3>
+              <p class="city-card__sub">Italia</p>
+            </div>
+          </a>
+
+          <a href="/ciudades/dubai/" class="city-card" aria-label="Hoteles famosos de Dubái">
+            <div class="city-card__art art--city-dubai">
+              <div class="city-card__art-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="city-card__body">
+              <h3 class="city-card__title">Dubái</h3>
+              <p class="city-card__sub">EAU</p>
+            </div>
+          </a>
+
+          <a href="/ciudades/tokio/" class="city-card" aria-label="Hoteles famosos de Tokio">
+            <div class="city-card__art art--city-tokyo">
+              <div class="city-card__art-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="city-card__body">
+              <h3 class="city-card__title">Tokio</h3>
+              <p class="city-card__sub">Japón</p>
+            </div>
+          </a>
+
+          <a href="/ciudades/roma/" class="city-card" aria-label="Hoteles famosos de Roma">
+            <div class="city-card__art art--city-rome">
+              <div class="city-card__art-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="city-card__body">
+              <h3 class="city-card__title">Roma</h3>
+              <p class="city-card__sub">Italia</p>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Editorial Feature ──────────────────────────────────── -->
+    <section class="section home-editorial" aria-labelledby="editorial-heading">
+      <div class="container">
+        <div class="home-editorial__feature">
+          <div class="home-editorial__art art--col-pelicula">
+            <div class="home-editorial__art-pattern" aria-hidden="true"></div>
+          </div>
+          <div class="home-editorial__content">
+            <div class="section-heading">
+              <span class="section-heading__eyebrow">Guía editorial</span>
+              <h2 class="section-heading__title" id="editorial-heading">¿Qué hace a un hotel verdaderamente famoso?</h2>
+              <p class="section-heading__body">No son las estrellas ni las listas. Son las historias que no se repiten en ningún otro lugar del mundo. Nuestra guía editorial explora los elementos que convierten un edificio en un mito.</p>
+            </div>
+            <a href="/guias/que-hace-famoso-un-hotel/" class="btn btn--outline-dark">Leer la guía</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Manifesto Strip ────────────────────────────────────── -->
+    <section class="home-manifesto" aria-label="Sobre La Bitácora">
+      <div class="container">
+        <blockquote class="home-manifesto__quote">
+          "No es un catálogo de precios. Es un archivo de lugares que dejaron huella en la imaginación del mundo."
+        </blockquote>
+        <p class="home-manifesto__attr">— La Bitácora · Hoteles Famosos</p>
+        <div style="margin-top: var(--space-8); display: flex; flex-wrap: wrap; gap: var(--space-4); justify-content: center;">
+          <a href="/acerca-de/" class="btn btn--outline">Acerca del proyecto</a>
+          <a href="/guias/preguntas-frecuentes/" class="btn btn--outline">Preguntas frecuentes</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Guides Preview ─────────────────────────────────────── -->
+    <section class="section section--gold-pale" aria-labelledby="guides-heading">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-heading__eyebrow">Guías prácticas</span>
+          <h2 class="section-heading__title" id="guides-heading">Para entender antes de viajar</h2>
+        </div>
+        <div class="grid grid-3">
+
+          <div class="hotel-card" style="position:relative;">
+            <a href="/guias/glosario-hotelero/" class="hotel-card__link-overlay" aria-label="Glosario de la hotelería de lujo"></a>
+            <div class="hotel-card__art art--col-clasico" style="aspect-ratio: 2/1;">
+              <div class="hotel-card__art-pattern" aria-hidden="true"></div>
+              <span class="hotel-card__monogram" aria-hidden="true">G</span>
+            </div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Guía práctica</p>
+              <h3 class="hotel-card__title">Glosario hotelero</h3>
+              <p class="hotel-card__excerpt">Suite, butler, palace hotel, grand hotel... los términos que definen el vocabulario del lujo clásico, explicados en español.</p>
+              <span class="hotel-card__link" aria-hidden="true">Leer guía</span>
+            </div>
+          </div>
+
+          <div class="hotel-card" style="position:relative;">
+            <a href="/guias/bares-de-hotel-famosos/" class="hotel-card__link-overlay" aria-label="Los grandes bares de hotel del mundo"></a>
+            <div class="hotel-card__art art--col-antiguos" style="aspect-ratio: 2/1;">
+              <div class="hotel-card__art-pattern" aria-hidden="true"></div>
+              <span class="hotel-card__monogram" aria-hidden="true">B</span>
+            </div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Guía editorial</p>
+              <h3 class="hotel-card__title">Grandes bares de hotel</h3>
+              <p class="hotel-card__excerpt">Hay bares que son más famosos que muchos restaurantes. Esta guía los recorre y explica por qué el bar de hotel es una institución cultural.</p>
+              <span class="hotel-card__link" aria-hidden="true">Leer guía</span>
+            </div>
+          </div>
+
+          <div class="hotel-card" style="position:relative;">
+            <a href="/guias/historia-hotel-lujo-moderno/" class="hotel-card__link-overlay" aria-label="La historia del hotel de lujo moderno"></a>
+            <div class="hotel-card__art art--col-historia" style="aspect-ratio: 2/1;">
+              <div class="hotel-card__art-pattern" aria-hidden="true"></div>
+              <span class="hotel-card__monogram" aria-hidden="true">H</span>
+            </div>
+            <div class="hotel-card__body">
+              <p class="hotel-card__location">Guía editorial</p>
+              <h3 class="hotel-card__title">Historia del hotel de lujo</h3>
+              <p class="hotel-card__excerpt">De las posadas del siglo XIX a los rascacielos del siglo XXI: cómo evolucionó el hotel de lujo y qué lo hizo tan central en la cultura moderna.</p>
+              <span class="hotel-card__link" aria-hidden="true">Leer guía</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="u-text-center" style="margin-top: var(--space-8);">
+          <a href="/guias/" class="btn btn--outline-dark">Ver todas las guías</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- YouTube Shorts module -->
+  <section class="shorts-section" data-shorts-feed="/data/shorts/hoteles-famosos-home.json" data-shorts-type="home">
+    <div class="container">
+      <p class="section-kicker">Video guía</p>
+      <h2>Videos para descubrir hoteles famosos</h2>
+      <p>Una selección visual para explorar hoteles icónicos, ciudades memorables y atmósferas de viaje.</p>
+      <div class="shorts-rail-wrap">
+        <div class="shorts-rail" data-shorts-container></div>
+      </div>
+      <p class="shorts-empty" data-shorts-empty hidden>Próximamente: videos breves seleccionados para esta guía.</p>
+    </div>
+  </section>
+
+
+  <!-- ── Footer ─────────────────────────────────────────────── -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <p class="footer__logo-text">Hoteles Famosos</p>
+          <span class="footer__logo-sub">La Bitácora</span>
+          <p class="footer__brand-desc">Una guía editorial e inspiracional de los hoteles más icónicos del mundo, escrita en español para lectores de América Latina y el mundo hispanohablante.</p>
+        </div>
+        <nav class="footer__nav" aria-label="Navegación del pie de página">
+          <div>
+            <p class="footer__nav-heading">Hoteles</p>
+            <ul>
+              <li><a href="/hoteles/">Todos los hoteles</a></li>
+              <li><a href="/hoteles/the-plaza-nueva-york/">The Plaza</a></li>
+              <li><a href="/hoteles/ritz-paris/">The Ritz, París</a></li>
+              <li><a href="/hoteles/alvear-palace-buenos-aires/">Alvear Palace</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer__nav-heading">Por Ciudad</p>
+            <ul>
+              <li><a href="/ciudades/nueva-york/">Nueva York</a></li>
+              <li><a href="/ciudades/paris/">París</a></li>
+              <li><a href="/ciudades/buenos-aires/">Buenos Aires</a></li>
+              <li><a href="/ciudades/">Ver todas</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer__nav-heading">Colecciones</p>
+            <ul>
+              <li><a href="/colecciones/hoteles-de-pelicula/">Hoteles de película</a></li>
+              <li><a href="/colecciones/hoteles-iconicos-america-latina/">Íconos de LATAM</a></li>
+              <li><a href="/colecciones/palacios-convertidos-hotel/">Palacios convertidos</a></li>
+              <li><a href="/colecciones/">Ver todas</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer__nav-heading">La Bitácora</p>
+            <ul>
+              <li><a href="/acerca-de/">Acerca de</a></li>
+              <li><a href="/politica-editorial/">Política editorial</a></li>
+              <li><a href="/guias/preguntas-frecuentes/">Preguntas frecuentes</a></li>
+              <li><a href="/sitemap.xml">Mapa del sitio</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="footer__disclaimer">
+        <p><strong>Aviso editorial:</strong> Hoteles Famosos es una guía editorial e inspiracional. No somos una agencia de viajes ni una plataforma de reservas. La información puede cambiar; antes de planificar una visita o estadía, verifica tarifas, disponibilidad, servicios, políticas y datos históricos en fuentes oficiales del hotel o fuentes confiables actualizadas.</p>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2025 Hoteles Famosos. Todos los derechos reservados.</p>
+        <nav class="footer__legal-links" aria-label="Enlaces legales">
+          <a href="/politica-editorial/">Política editorial</a>
+          <a href="/acerca-de/">Acerca de</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/nav.js"></script>
+  <script src="/assets/js/shorts.js?v=shorts1" defer></script>
+</body>
+</html>
