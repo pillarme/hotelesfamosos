@@ -691,3 +691,55 @@
 .art--badrutts    { background-image: url(/assets/img/tiles/badrutts-palace-st-moritz.jpg); }
 .art--mountnelson { background-image: url(/assets/img/tiles/mount-nelson-ciudad-del-cabo.jpg); }
 .art--negresco    { background-image: url(/assets/img/tiles/hotel-negresco-niza.jpg); }
+
+/* ════ Phase 3 hotel tiles (Wikimedia Commons photographs) ════ */
+.art--beau-rivage-palace-lausana, .art--browns-hotel-londres, .art--fairmont-banff-springs, .art--fairmont-empress-victoria, .art--fairmont-san-francisco, .art--galle-face-hotel-colombo, .art--grand-hotel-europe-san-petersburgo, .art--grand-hotel-estocolmo, .art--hotel-adlon-berlin, .art--hotel-dangleterre-copenhague, .art--hotel-de-crillon-paris, .art--hotel-de-russie-roma, .art--hotel-hassler-roma, .art--plaza-athenee-paris, .art--hotel-sacher-viena, .art--imperial-hotel-tokio, .art--la-mamounia-marrakech, .art--le-meurice-paris, .art--mena-house-el-cairo, .art--rambagh-palace-jaipur, .art--old-cataract-asuan, .art--taj-lake-palace-udaipur, .art--the-carlyle-nueva-york, .art--the-connaught-londres, .art--gritti-palace-venecia, .art--the-ritz-london, .art--the-shelbourne-dublin, .art--st-regis-nueva-york, .art--the-strand-rangun, .art--waldorf-astoria-nueva-york {
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+}
+.art--beau-rivage-palace-lausana { background-image: url(/assets/img/tiles/beau-rivage-palace-lausana.jpg); }
+.art--browns-hotel-londres { background-image: url(/assets/img/tiles/browns-hotel-londres.jpg); }
+.art--fairmont-banff-springs { background-image: url(/assets/img/tiles/fairmont-banff-springs.jpg); }
+.art--fairmont-empress-victoria { background-image: url(/assets/img/tiles/fairmont-empress-victoria.jpg); }
+.art--fairmont-san-francisco { background-image: url(/assets/img/tiles/fairmont-san-francisco.jpg); }
+.art--galle-face-hotel-colombo { background-image: url(/assets/img/tiles/galle-face-hotel-colombo.jpg); }
+.art--grand-hotel-europe-san-petersburgo { background-image: url(/assets/img/tiles/grand-hotel-europe-san-petersburgo.jpg); }
+.art--grand-hotel-estocolmo { background-image: url(/assets/img/tiles/grand-hotel-estocolmo.jpg); }
+.art--hotel-adlon-berlin { background-image: url(/assets/img/tiles/hotel-adlon-berlin.jpg); }
+.art--hotel-dangleterre-copenhague { background-image: url(/assets/img/tiles/hotel-dangleterre-copenhague.jpg); }
+.art--hotel-de-crillon-paris { background-image: url(/assets/img/tiles/hotel-de-crillon-paris.jpg); }
+.art--hotel-de-russie-roma { background-image: url(/assets/img/tiles/hotel-de-russie-roma.jpg); }
+.art--hotel-hassler-roma { background-image: url(/assets/img/tiles/hotel-hassler-roma.jpg); }
+.art--plaza-athenee-paris { background-image: url(/assets/img/tiles/plaza-athenee-paris.jpg); }
+.art--hotel-sacher-viena { background-image: url(/assets/img/tiles/hotel-sacher-viena.jpg); }
+.art--imperial-hotel-tokio { background-image: url(/assets/img/tiles/imperial-hotel-tokio.jpg); }
+.art--la-mamounia-marrakech { background-image: url(/assets/img/tiles/la-mamounia-marrakech.jpg); }
+.art--le-meurice-paris { background-image: url(/assets/img/tiles/le-meurice-paris.jpg); }
+.art--mena-house-el-cairo { background-image: url(/assets/img/tiles/mena-house-el-cairo.jpg); }
+.art--rambagh-palace-jaipur { background-image: url(/assets/img/tiles/rambagh-palace-jaipur.jpg); }
+.art--old-cataract-asuan { background-image: url(/assets/img/tiles/old-cataract-asuan.jpg); }
+.art--taj-lake-palace-udaipur { background-image: url(/assets/img/tiles/taj-lake-palace-udaipur.jpg); }
+.art--the-carlyle-nueva-york { background-image: url(/assets/img/tiles/the-carlyle-nueva-york.jpg); }
+.art--the-connaught-londres { background-image: url(/assets/img/tiles/the-connaught-londres.jpg); }
+.art--gritti-palace-venecia { background-image: url(/assets/img/tiles/gritti-palace-venecia.jpg); }
+.art--the-ritz-london { background-image: url(/assets/img/tiles/the-ritz-london.jpg); }
+.art--the-shelbourne-dublin { background-image: url(/assets/img/tiles/the-shelbourne-dublin.jpg); }
+.art--st-regis-nueva-york { background-image: url(/assets/img/tiles/st-regis-nueva-york.jpg); }
+.art--the-strand-rangun { background-image: url(/assets/img/tiles/the-strand-rangun.jpg); }
+.art--waldorf-astoria-nueva-york { background-image: url(/assets/img/tiles/waldorf-astoria-nueva-york.jpg); }
+
+/* ════ Phase 3 collection tiles ════ */
+.art--col-antiguasresidenciasrealesyaristocraticas, .art--col-grandeshotelesdeasia, .art--col-grandeshotelesdecapitaleuropea, .art--col-grandeshotelesferroviarios, .art--col-hotelesaorillasdeunrio, .art--col-hotelesdegrantradiciongastronomica, .art--col-hotelesbelleepoque, .art--col-hotelesdemontanaylago, .art--col-hotelesdesiluetainconfundible, .art--col-hotelesjuntoagrandesmonumentos, .art--col-hotelesylosescritores, .art--col-laedaddoradadelahoteleriaamericana {
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+}
+.art--col-antiguasresidenciasrealesyaristocraticas { background-image: url(/assets/img/tiles/hotel-imperial-viena.jpg); }
+.art--col-grandeshotelesdeasia { background-image: url(/assets/img/tiles/the-peninsula-hong-kong.jpg); }
+.art--col-grandeshotelesdecapitaleuropea { background-image: url(/assets/img/tiles/hotel-adlon-berlin.jpg); }
+.art--col-grandeshotelesferroviarios { background-image: url(/assets/img/tiles/chateau-frontenac-quebec.jpg); }
+.art--col-hotelesaorillasdeunrio { background-image: url(/assets/img/tiles/mandarin-oriental-bangkok.jpg); }
+.art--col-hotelesdegrantradiciongastronomica { background-image: url(/assets/img/tiles/ritz-paris.jpg); }
+.art--col-hotelesbelleepoque { background-image: url(/assets/img/tiles/hotel-negresco-niza.jpg); }
+.art--col-hotelesdemontanaylago { background-image: url(/assets/img/tiles/fairmont-banff-springs.jpg); }
+.art--col-hotelesdesiluetainconfundible { background-image: url(/assets/img/tiles/burj-al-arab-dubai.jpg); }
+.art--col-hotelesjuntoagrandesmonumentos { background-image: url(/assets/img/tiles/hotel-hassler-roma.jpg); }
+.art--col-hotelesylosescritores { background-image: url(/assets/img/tiles/mandarin-oriental-bangkok.jpg); }
+.art--col-laedaddoradadelahoteleriaamericana { background-image: url(/assets/img/tiles/chateau-frontenac-quebec.jpg); }
