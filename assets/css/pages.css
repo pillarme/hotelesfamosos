@@ -677,3 +677,17 @@
 .art--col-norteamerica { background-image: url(/assets/img/tiles/chateau-frontenac-quebec.jpg); }
 .art--col-asia { background-image: url(/assets/img/tiles/pera-palace-estambul.jpg); }
 .art--col-hoteleros { background-image: url(/assets/img/tiles/ritz-paris.jpg); }
+
+/* ════ New hotel tiles (Batch 2) — Wikimedia Commons photographs ════ */
+.art--peninsula, .art--tajmahal, .art--mandarinbkk, .art--ritzmadrid,
+.art--imperial, .art--badrutts, .art--mountnelson, .art--negresco {
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+}
+.art--peninsula   { background-image: url(/assets/img/tiles/the-peninsula-hong-kong.jpg); }
+.art--tajmahal    { background-image: url(/assets/img/tiles/taj-mahal-palace-mumbai.jpg); }
+.art--mandarinbkk { background-image: url(/assets/img/tiles/mandarin-oriental-bangkok.jpg); }
+.art--ritzmadrid  { background-image: url(/assets/img/tiles/hotel-ritz-madrid.jpg); }
+.art--imperial    { background-image: url(/assets/img/tiles/hotel-imperial-viena.jpg); }
+.art--badrutts    { background-image: url(/assets/img/tiles/badrutts-palace-st-moritz.jpg); }
+.art--mountnelson { background-image: url(/assets/img/tiles/mount-nelson-ciudad-del-cabo.jpg); }
+.art--negresco    { background-image: url(/assets/img/tiles/hotel-negresco-niza.jpg); }
