@@ -678,16 +678,16 @@
 .art--col-asia { background-image: url(/assets/img/tiles/pera-palace-estambul.jpg); }
 .art--col-hoteleros { background-image: url(/assets/img/tiles/ritz-paris.jpg); }
 
-/* ════ New hotel tiles (Batch 2) — monogram gradient tiles ════ */
-.art--peninsula   { background: linear-gradient(135deg, #0E2A33 0%, #1F5560 55%, #C9973A 100%); }
-.art--tajmahal    { background: linear-gradient(135deg, #3A1E12 0%, #8A4B2A 55%, #D89A4A 100%); }
-.art--mandarinbkk { background: linear-gradient(135deg, #14241A 0%, #2F5E3E 55%, #C9973A 100%); }
-.art--ritzmadrid  { background: linear-gradient(135deg, #2A1020 0%, #6E2A45 55%, #C9973A 100%); }
-.art--imperial    { background: linear-gradient(135deg, #10203F 0%, #2E4A7A 55%, #C9973A 100%); }
-.art--badrutts    { background: linear-gradient(135deg, #1C2733 0%, #41566B 55%, #9FB4C4 100%); }
-.art--mountnelson { background: linear-gradient(135deg, #4A2230 0%, #A85A6E 55%, #E0A9B4 100%); }
-.art--negresco    { background: linear-gradient(135deg, #3A1828 0%, #8A3A53 55%, #E2B655 100%); }
-.art--peninsula .hotel-card__monogram, .art--tajmahal .hotel-card__monogram,
-.art--mandarinbkk .hotel-card__monogram, .art--ritzmadrid .hotel-card__monogram,
-.art--imperial .hotel-card__monogram, .art--badrutts .hotel-card__monogram,
-.art--mountnelson .hotel-card__monogram, .art--negresco .hotel-card__monogram { display: flex; }
+/* ════ New hotel tiles (Batch 2) — Wikimedia Commons photographs ════ */
+.art--peninsula, .art--tajmahal, .art--mandarinbkk, .art--ritzmadrid,
+.art--imperial, .art--badrutts, .art--mountnelson, .art--negresco {
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+}
+.art--peninsula   { background-image: url(/assets/img/tiles/the-peninsula-hong-kong.jpg); }
+.art--tajmahal    { background-image: url(/assets/img/tiles/taj-mahal-palace-mumbai.jpg); }
+.art--mandarinbkk { background-image: url(/assets/img/tiles/mandarin-oriental-bangkok.jpg); }
+.art--ritzmadrid  { background-image: url(/assets/img/tiles/hotel-ritz-madrid.jpg); }
+.art--imperial    { background-image: url(/assets/img/tiles/hotel-imperial-viena.jpg); }
+.art--badrutts    { background-image: url(/assets/img/tiles/badrutts-palace-st-moritz.jpg); }
+.art--mountnelson { background-image: url(/assets/img/tiles/mount-nelson-ciudad-del-cabo.jpg); }
+.art--negresco    { background-image: url(/assets/img/tiles/hotel-negresco-niza.jpg); }
